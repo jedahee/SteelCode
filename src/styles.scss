@@ -1,22 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 
-
-// UTILITIES
+// * UTILITIES
 @import './styles/utilities/variables';
 
-// BASE
-@import './styles/base/reset';
+// * BASE
 @import './styles/base/typo';
+@import './styles/base/reset';
 
-// COMPONENTS
+// * COMPONENTS
 @import './styles/components/icons';
 @import './styles/components/input';
 @import './styles/components/buttons';
+@import './styles/components/logo';
 
-// VIEWS
+// * VIEWS
 @import './styles/views/home';
 @import './styles/views/404';
 
-// LAYOUT
+// * LAYOUT
 @import './styles/layout/home';
 @import './styles/layout/404';

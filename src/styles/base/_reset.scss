@@ -1,0 +1,26 @@
+// * RESET STYLES
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: 'Noto Sans Medium';
+    font-weight: 400;
+}
+
+textarea, input, select, option {
+    font-family: 'Noto Sans Medium';
+}
+
+*::after, *::before {
+    content: '';
+    box-sizing: border-box;
+}
+
+// * FONT TITLES
+h1 {
+    font-family: 'BSD' !important;
+}

@@ -1,0 +1,121 @@
+// * LINK TYPES (DESIGN CLASSES DEPENDS OF PAGE)
+
+// * HOME STYLES
+
+div.type1 {
+    z-index: -1;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: $rounded-full;
+    background-color: $pure_dark;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+div.type1.c-1 {
+    height: 40px;
+    width: 40px;
+    transition: all .3s ease;
+}
+div.type1.c-2 {
+    height: 20px;
+    width: 20px;
+    top: 120%;
+    left: 50%;
+    transition: all .13s .3s ease;
+}
+div.type1.c-3 {
+    height: 20px;
+    width: 20px;
+    top: -10%;
+    left: 50%;
+    transition: all .21s .3s ease;
+}
+div.type1.c-4 {
+    height: 20px;
+    width: 20px;
+    top: 10%;
+    left: 57%;
+    transition: all .1s .3s ease;
+}
+div.type1.c-5 {
+    height: 25px;
+    width: 25px;
+    top: 50%;
+    left: 60%;
+    transition: all .1s .3s ease;
+}
+div.type1.c-6 {
+    height: 25px;
+    width: 25px;
+    transition: all .3s ease;
+}
+div.type1.c-7 {
+    height: 25px;
+    width: 25px;
+    top: 17%;
+    left: 40%;
+    transition: all .1s .3s ease;
+}
+div.type1.c-8 {
+    height: 15px;
+    width: 15px;
+    transition: all .15s .3s ease;
+}
+div.type1.c-9 {
+    height: 15px;
+    width: 15px;
+}
+div.type1.c-10 {
+    height: 15px;
+    width: 15px;
+    top: -10%;
+    left: 80%;
+    transition: all .23s .3s ease;
+}
+div.type1.c-11 {
+    height: 8px;
+    width: 8px;
+    top: 100%;
+    left: 83%;
+    transition: all .23s .3s ease;
+}
+div.type1.c-12 {
+    height: 10px;
+    width: 10px;
+    top: 30%;
+    left: 14%;
+    transition: all .23s .3s ease;
+}
+div.type1.c-13 {
+    height: 27px;
+    width: 27px;
+    top: 90%;
+    left: 60%;
+    transition: all .15s .3s ease;
+}
+div.type1.c-14 {
+    height: 22px;
+    width: 22px;
+    top: 90%;
+    left: 40%;
+    transition: all .15s .3s ease;
+}
+div.type1.c-15 {
+    height: 18px;
+    width: 18px;
+    top: 100%;
+    left: 10%;
+    transition: all .1s .3s ease;
+}
+
+li.type1:hover > .type1,li.type1:focus > .type1 {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+li.type1 {
+
+}

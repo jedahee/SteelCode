@@ -4,4 +4,38 @@
     position: absolute;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: $sep-xxl;
+
+    & > ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+
+        li {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            color: $light;
+            font-weight: 300;
+            font-family: 'Noto Sans Light';
+            font-size: $font-md;
+            cursor: pointer;
+            text-align: center;
+            width: 120px;
+            height: 25px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            
+            span {
+                z-index: 2;
+                position: relative;
+                text-align: center;
+                letter-spacing: .5px;
+            }
+        }
+    }
 }

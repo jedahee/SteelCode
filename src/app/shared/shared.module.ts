@@ -7,6 +7,8 @@ import { LogoComponent } from './logo/logo.component';
 import { LinkMenuComponent } from './link-menu/link-menu.component';
 import { SelectLangComponent } from './select-lang/select-lang.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LinkHeaderComponent } from './link-header/link-header.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -15,13 +17,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     LogoComponent,
     LinkMenuComponent,
-    SelectLangComponent
+    SelectLangComponent,
+    LinkHeaderComponent
   ],
   imports: [
     CommonModule,
     BrowserModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule
   ],
   exports: [
     HeaderComponent,

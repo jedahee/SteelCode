@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  public home:string = "/";
+  public about_us:string = "/about-us";
+  public projects:string = "/projects";
+  public contact_us:string = "/contact-us";
 
+  constructor() {
+
+  }
 }

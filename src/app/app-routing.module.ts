@@ -6,6 +6,18 @@ const routes: Routes = [
   {
     path: "",
     component: HomeComponent
+  },
+  {
+    path: "about-us",
+    component: HomeComponent
+  },
+  {
+    path: "projects",
+    component: HomeComponent
+  },
+  {
+    path: "contact-us",
+    component: HomeComponent
   }
 ];
 

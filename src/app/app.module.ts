@@ -6,7 +6,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { SharedModule } from './shared/shared.module';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +18,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     SharedModule,
     FormsModule, 
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

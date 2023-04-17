@@ -1,0 +1,23 @@
+.arrow-scroll {
+    width: 52px;
+    height: 52px;
+    display: block;
+    border-radius: $rounded-full;
+    background-color: $light;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .icon {
+        width: 34px;
+        transition: .3s ease;
+    }
+}
+
+.arrow-scroll.top > .icon {
+    transform: rotate(180deg);
+}

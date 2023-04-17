@@ -1,1 +1,27 @@
-<app-header></app-header>
+<app-header class="header_home"></app-header>
+<main class="main_home">
+    <article class="part-1" id="video">
+        <vg-player class="video-container">
+            <video [vgMedia]="$any(video)" #video id="singleVideo" preload="auto" controls class="video">
+                <source src="../../../assets/video/RENDER_FINAL_DEF.mp4" type="video/mp4">
+            </video>
+        </vg-player>
+        <!--<div class="video-container">
+            <video #video class="video" width="100%" height="100%" controls>
+                <source src="../../../assets/video/RENDER_FINAL_DEF.mp4" type="video/mp4">
+            </video>
+        </div>-->
+    </article>
+
+    <article class="part-2" id="info">
+        <app-decorate class="decorate" [class_type]="'type1'"></app-decorate>
+        <app-decorate class="decorate" [class_type]="'type2'"></app-decorate>
+        
+        <app-title class="title-container" [title]="'Inicio'"></app-title>
+        <app-text class="text-container" [text]="'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime corporis quidem veritatis natus debitis quos itaque doloribus nobis numquam laborum! Reiciendis assumenda voluptatem at consequatur porro debitis beatae sed eveniet.'"></app-text>
+        <app-text class="text-container" [text]="'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? itaque doloribus nobis numquam laborum! Reiciendis assumenda voluptatem at consequatur porro debitis beatae sed eveniet.'"></app-text>
+    </article>
+</main>
+<app-arrow-scroll></app-arrow-scroll>
+
+<app-footer class="footer"></app-footer>

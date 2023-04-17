@@ -9,6 +9,10 @@ import { SelectLangComponent } from './select-lang/select-lang.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LinkHeaderComponent } from './link-header/link-header.component';
 import { RouterModule } from '@angular/router';
+import { DecorateComponent } from './decorate/decorate.component';
+import { TitleComponent } from './title/title.component';
+import { TextComponent } from './text/text.component';
+import { ArrowScrollComponent } from './arrow-scroll/arrow-scroll.component';
 
 
 @NgModule({
@@ -18,7 +22,11 @@ import { RouterModule } from '@angular/router';
     LogoComponent,
     LinkMenuComponent,
     SelectLangComponent,
-    LinkHeaderComponent
+    LinkHeaderComponent,
+    DecorateComponent,
+    TitleComponent,
+    TextComponent,
+    ArrowScrollComponent
   ],
   imports: [
     CommonModule,
@@ -32,7 +40,12 @@ import { RouterModule } from '@angular/router';
     FooterComponent,
     LogoComponent,
     LinkMenuComponent,
-    SelectLangComponent
+    SelectLangComponent,
+    LinkHeaderComponent,
+    DecorateComponent,
+    TitleComponent,
+    TextComponent,
+    ArrowScrollComponent
   ]
 })
 export class SharedModule { }

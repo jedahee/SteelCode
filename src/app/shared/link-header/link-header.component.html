@@ -15,4 +15,9 @@
     <div class="{{style_type}} c-13" *ngIf="style_type == 'type1'"></div>
     <div class="{{style_type}} c-14" *ngIf="style_type == 'type1'"></div>
     <div class="{{style_type}} c-15" *ngIf="style_type == 'type1'"></div>
+
+    <ul *ngIf="submenu">
+        <app-link-header [link]="submenu_links[0]" [text]="'Metallic Arts Mod'" [style_type]="'type1'"></app-link-header>
+        <app-link-header [link]="submenu_links[1]" [text]="'Game'" [style_type]="'type1'"></app-link-header>
+    </ul>
 </li>

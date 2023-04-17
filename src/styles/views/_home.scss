@@ -1,0 +1,56 @@
+.header_home .header {
+    top: 100vh;
+}
+
+.main_home {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .part-1, .part-2 {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .part-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: $sep-lg;
+    }
+
+    .title-container {
+        margin-bottom: $sep-md;
+    }
+
+    .text-container {
+        width: 65%;
+        margin: $sep-xs 0;
+    }
+
+    .video-container {
+        /* width is set as 100% here. any width can be specified as per requirement */
+        height: 100%;
+        width: 100%;
+        padding-top: 56.25%;
+        height: 0px;
+        position: relative;
+        
+        .video {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+    
+
+}

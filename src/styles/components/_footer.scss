@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: -100vh;
+
+    footer {
+        width: 100%;
+        padding: $sep-md;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-weight: 400;
+            font-family: 'Noto Sans Light';
+            letter-spacing: .5px;
+            text-align: center;
+            color: $gray;
+            font-size: $font-xs + 2px;
+        }
+    }
+}

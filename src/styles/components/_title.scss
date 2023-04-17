@@ -1,0 +1,13 @@
+.main_home .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+        font-size: $font-title;
+        width: max-content;
+        font-weight: 600;
+        color: $light;
+        text-align: center;
+    }
+}

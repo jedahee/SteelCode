@@ -7,6 +7,11 @@ import { SharedModule } from './shared/shared.module';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import {VgCoreModule} from '@videogular/ngx-videogular/core';
+import {VgControlsModule} from '@videogular/ngx-videogular/controls';
+import {VgOverlayPlayModule} from '@videogular/ngx-videogular/overlay-play';
+import {VgBufferingModule} from '@videogular/ngx-videogular/buffering';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +24,11 @@ import { RouterModule } from '@angular/router';
     SharedModule,
     FormsModule, 
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+    VgCoreModule,
+    VgControlsModule,
+    VgOverlayPlayModule,
+    VgBufferingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

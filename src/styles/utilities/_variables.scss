@@ -25,7 +25,10 @@ $font-md: 1.1rem;
 $font-lg: 1.5rem;
 $font-xl: 1.7rem;
 $font-xxl: 2rem;
-$font-xxxl: 2.4rem;
+$font-xxxl: 2.5rem;
+$font-xxxxl: 3.5rem;
+$font-xxxxxl: 4.5rem;
+$font-title: 7rem;
 
 // * BORDER RADIUS
 $rounded-sm: 5px;
@@ -33,8 +36,3 @@ $rounded-md: 10px;
 $rounded-lg: 15px;
 $rounded-xl: 20px;
 $rounded-full: 50%;
-
-// * Z-INDEX LAYERS
-$back-layer: -1;
-$medium-layer: 1;
-$front-layer: 2;

@@ -10,6 +10,7 @@
     border: none;
     font-family: 'Noto Sans Medium';
     font-weight: 400;
+    scroll-behavior: smooth;
 }
 
 textarea, input, select, option {
@@ -22,6 +23,7 @@ textarea, input, select, option {
 }
 
 body {
+    overflow: hidden;
     background-color: $pure_dark;
 }
 

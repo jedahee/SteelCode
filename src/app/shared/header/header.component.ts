@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
   public home:string = "/";
   public about_us:string = "/about-us";
-  public projects:string = "/projects";
+  public projects_mod:string = "/projects/metallics_arts_mod";
+  public projects_game:string = "/projects/game";
   public contact_us:string = "/contact-us";
 
   constructor() {

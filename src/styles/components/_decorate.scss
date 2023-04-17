@@ -1,0 +1,24 @@
+
+.decorate {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.decorate:has(.type1) {
+    background-image: url(../../assets/images/decorate_1-home.svg);
+    top: 0;
+    right: -6%;
+}
+
+.decorate:has(.type2) {
+    background-image: url(../../assets/images/decorate_2-home.svg);
+    bottom: -35%;
+    left: -10%;
+}

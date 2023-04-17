@@ -8,103 +8,104 @@ div.type1 {
     height: 20px;
     width: 20px;
     border-radius: $rounded-full;
-    background-color: $pure_dark;
+    background-color: $dark;
     z-index: 1;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
 }
 
-div.type1.c-1 {
+div.type1.c-1 , .arrow-scroll .type1.c-1 {
     height: 40px;
     width: 40px;
     transition: all .3s ease;
 }
-div.type1.c-2 {
+div.type1.c-2 , .arrow-scroll .type1.c-2 {
     height: 20px;
     width: 20px;
     top: 120%;
     left: 50%;
     transition: all .13s .3s ease;
 }
-div.type1.c-3 {
+div.type1.c-3 , .arrow-scroll .type1.c-3 {
     height: 20px;
     width: 20px;
     top: -10%;
     left: 50%;
     transition: all .21s .3s ease;
 }
-div.type1.c-4 {
+div.type1.c-4 , .arrow-scroll .type1.c-4 {
     height: 20px;
     width: 20px;
     top: 10%;
     left: 57%;
     transition: all .1s .3s ease;
 }
-div.type1.c-5 {
+div.type1.c-5 , .arrow-scroll .type1.c-5 {
     height: 25px;
     width: 25px;
     top: 50%;
     left: 60%;
     transition: all .1s .3s ease;
 }
-div.type1.c-6 {
+div.type1.c-6 , .arrow-scroll .type1.c-6 {
     height: 25px;
     width: 25px;
     transition: all .3s ease;
 }
-div.type1.c-7 {
+div.type1.c-7 , .arrow-scroll .type1.c-7 {
     height: 25px;
     width: 25px;
     top: 17%;
     left: 40%;
     transition: all .1s .3s ease;
 }
-div.type1.c-8 {
+div.type1.c-8 , .arrow-scroll .type1.c-8 {
     height: 15px;
     width: 15px;
     transition: all .15s .3s ease;
 }
-div.type1.c-9 {
+div.type1.c-9 , .arrow-scroll .type1.c-9 {
     height: 15px;
     width: 15px;
+    transition: all .1s .3s ease;
 }
-div.type1.c-10 {
+div.type1.c-10, .arrow-scroll .type1.c-10 {
     height: 15px;
     width: 15px;
     top: -10%;
     left: 80%;
     transition: all .23s .3s ease;
 }
-div.type1.c-11 {
+div.type1.c-11, .arrow-scroll .type1.c-11 {
     height: 8px;
     width: 8px;
     top: 100%;
     left: 83%;
     transition: all .23s .3s ease;
 }
-div.type1.c-12 {
+div.type1.c-12, .arrow-scroll .type1.c-12 {
     height: 10px;
     width: 10px;
     top: 30%;
     left: 14%;
     transition: all .23s .3s ease;
 }
-div.type1.c-13 {
+div.type1.c-13, .arrow-scroll .type1.c-13 {
     height: 27px;
     width: 27px;
     top: 90%;
     left: 60%;
     transition: all .15s .3s ease;
 }
-div.type1.c-14 {
+div.type1.c-14, .arrow-scroll .type1.c-14 {
     height: 22px;
     width: 22px;
     top: 90%;
     left: 40%;
     transition: all .15s .3s ease;
 }
-div.type1.c-15 {
+div.type1.c-15, .arrow-scroll .type1.c-15 {
     height: 18px;
     width: 18px;
     top: 100%;
@@ -112,7 +113,69 @@ div.type1.c-15 {
     transition: all .1s .3s ease;
 }
 
-li.type1:hover > .type1,li.type1:focus > .type1 {
+.arrow-scroll .type1.c-1 {
+
+}
+.arrow-scroll .type1.c-2 {
+    top: 83%;
+    left: 81%;
+}
+.arrow-scroll .type1.c-3 {
+    top: 6%;
+    left: 44%;
+}
+.arrow-scroll .type1.c-4 {
+    left: 22%;
+    top: 4%;
+}
+.arrow-scroll .type1.c-5 {
+    left: 5%;
+}
+.arrow-scroll .type1.c-6 {
+    left: 10%;
+}
+.arrow-scroll .type1.c-7 {
+    left: 3%;
+}
+.arrow-scroll .type1.c-8 {
+    left: 89%;
+    top: 39%;
+}
+.arrow-scroll .type1.c-9 {
+    left: 98%;
+    top: 61%;
+}
+.arrow-scroll .type1.c-10 {
+    top: -10%;
+    left: 80%;
+}
+.arrow-scroll .type1.c-11 {
+    top: 122%;
+    left: 97%;
+}
+.arrow-scroll .type1.c-12 {
+    top: 30%;
+    left: -50%;
+}
+.arrow-scroll .type1.c-13 {
+    top: 90%;
+    left: 60%;
+}
+.arrow-scroll .type1.c-14 {
+    top: 90%;
+    left: 40%;
+}
+.arrow-scroll .type1.c-15 {
+    top: 83%;
+    left: 10%;
+}
+
+.arrow-scroll .type1 {
+    background-color: $light !important;
+    z-index: -1;
+}
+
+li.type1:hover > .type1,li.type1:focus > .type1,.arrow-scroll:hover >.type1, .arrow-scroll:focus >.type1  {
     transform: translate(-50%, -50%) scale(1);
 }
 

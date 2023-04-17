@@ -3,7 +3,7 @@
     <ul>
         <app-link-header [link]="home" [text]="'Inicio'" [style_type]="'type1'"></app-link-header>
         <app-link-header [link]="about_us" [text]="'¿Quienes somos?'" [style_type]="'type1'"></app-link-header>
-        <app-link-header [link]="projects" [text]="'Proyectos'" [style_type]="'type1'"></app-link-header>
+        <app-link-header [text]="'Proyectos'" [submenu]="true" [submenu_links]="[projects_mod, projects_game]" [style_type]="'type1'"></app-link-header>
         <app-link-header [link]="contact_us" [text]="'Contáctanos'" [style_type]="'type1'"></app-link-header>
     </ul>
     <app-select-lang></app-select-lang>

@@ -1,23 +1,47 @@
-<li [routerLink]="[link]" class="{{style_type}}">
+<li [routerLink]="[link]" class="{{style_type}}" *ngIf="style_type == 'type1'">
     <span>{{text}}</span>
-    <div class="{{style_type}} c-1" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-2" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-3" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-4" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-5" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-6" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-7" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-8" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-9" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-10" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-11" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-12" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-13" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-14" *ngIf="style_type == 'type1'"></div>
-    <div class="{{style_type}} c-15" *ngIf="style_type == 'type1'"></div>
+    <div class="{{style_type}} c-1"></div>
+    <div class="{{style_type}} c-2"></div>
+    <div class="{{style_type}} c-3"></div>
+    <div class="{{style_type}} c-4"></div>
+    <div class="{{style_type}} c-5"></div>
+    <div class="{{style_type}} c-6"></div>
+    <div class="{{style_type}} c-7"></div>
+    <div class="{{style_type}} c-8"></div>
+    <div class="{{style_type}} c-9"></div>
+    <div class="{{style_type}} c-10"></div>
+    <div class="{{style_type}} c-11"></div>
+    <div class="{{style_type}} c-12"></div>
+    <div class="{{style_type}} c-13"></div>
+    <div class="{{style_type}} c-14"></div>
+    <div class="{{style_type}} c-15"></div>
 
     <ul *ngIf="submenu">
         <app-link-header [link]="submenu_links[0]" [text]="'Metallic Arts Mod'" [style_type]="'type1'"></app-link-header>
         <app-link-header [link]="submenu_links[1]" [text]="'Game'" [style_type]="'type1'"></app-link-header>
+    </ul>
+</li>
+
+<li [routerLink]="[link]" class="{{style_type}}" *ngIf="style_type == 'type2'">
+    <span>{{text}}</span>
+    <div class="{{style_type}} c-1"></div>
+    <div class="{{style_type}} c-2"></div>
+    <div class="{{style_type}} c-3"></div>
+    <div class="{{style_type}} c-4"></div>
+    <div class="{{style_type}} c-5"></div>
+    <div class="{{style_type}} c-6"></div>
+    <div class="{{style_type}} c-7"></div>
+    <div class="{{style_type}} c-8"></div>
+    <div class="{{style_type}} c-9"></div>
+    <div class="{{style_type}} c-10"></div>
+    <div class="{{style_type}} c-11"></div>
+    <div class="{{style_type}} c-12"></div>
+    <div class="{{style_type}} c-13"></div>
+    <div class="{{style_type}} c-14"></div>
+    <div class="{{style_type}} c-15"></div>
+
+    <ul *ngIf="submenu">
+        <app-link-header [link]="submenu_links[0]" [text]="'Metallic Arts Mod'" [style_type]="'type2'"></app-link-header>
+        <app-link-header [link]="submenu_links[1]" [text]="'Game'" [style_type]="'type2'"></app-link-header>
     </ul>
 </li>

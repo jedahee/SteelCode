@@ -30,10 +30,13 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/@videogular/ngx-videogular/fonts/videogular.css",
-              "src/styles.scss"
+              "node_modules/aos/dist/aos.css",
+              "src/styles.scss",
+              "node_modules/@videogular/ngx-videogular/fonts/videogular.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ]
           },
           "configurations": {
             "production": {

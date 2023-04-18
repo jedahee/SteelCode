@@ -13,8 +13,13 @@ import { DecorateComponent } from './decorate/decorate.component';
 import { TitleComponent } from './title/title.component';
 import { TextComponent } from './text/text.component';
 import { ArrowScrollComponent } from './arrow-scroll/arrow-scroll.component';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 
-
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -33,7 +38,15 @@ import { ArrowScrollComponent } from './arrow-scroll/arrow-scroll.component';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'es',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   exports: [
     HeaderComponent,
@@ -45,7 +58,8 @@ import { ArrowScrollComponent } from './arrow-scroll/arrow-scroll.component';
     DecorateComponent,
     TitleComponent,
     TextComponent,
-    ArrowScrollComponent
+    ArrowScrollComponent,
+    
   ]
 })
 export class SharedModule { }

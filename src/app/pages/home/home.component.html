@@ -1,27 +1,25 @@
-<app-header class="header_home"></app-header>
+<app-header class="header_home" [type]="'type1'" (select_lang)="selectLang($event)"></app-header>
 <main class="main_home">
     <article class="part-1" id="video">
-        <vg-player class="video-container">
+        <!--<vg-player class="video-container">
             <video [vgMedia]="$any(video)" #video id="singleVideo" preload="auto" controls class="video">
                 <source src="../../../assets/video/RENDER_FINAL_DEF.mp4" type="video/mp4">
             </video>
-        </vg-player>
-        <!--<div class="video-container">
-            <video #video class="video" width="100%" height="100%" controls>
+        </vg-player>-->
+        <div class="video-container">
+            <video #video muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true" class="video" width="100%" height="100%">
                 <source src="../../../assets/video/RENDER_FINAL_DEF.mp4" type="video/mp4">
             </video>
-        </div>-->
+        </div>
     </article>
 
     <article class="part-2" id="info">
-        <app-decorate class="decorate" [class_type]="'type1'"></app-decorate>
-        <app-decorate class="decorate" [class_type]="'type2'"></app-decorate>
-        
-        <app-title class="title-container" [title]="'Inicio'"></app-title>
-        <app-text class="text-container" [text]="'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime corporis quidem veritatis natus debitis quos itaque doloribus nobis numquam laborum! Reiciendis assumenda voluptatem at consequatur porro debitis beatae sed eveniet.'"></app-text>
-        <app-text class="text-container" [text]="'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? itaque doloribus nobis numquam laborum! Reiciendis assumenda voluptatem at consequatur porro debitis beatae sed eveniet.'"></app-text>
+        <app-decorate class="decorate" data-aos="fade-left" data-aos-duration="700" [class_type]="'type1'"></app-decorate>
+        <app-decorate class="decorate" data-aos="fade-right" data-aos-duration="700" [class_type]="'type2'"></app-decorate>
+        <app-title class="title-container" data-aos="fade-down" data-aos-duration="700" [title]="'titulo_home' | translate"></app-title>
+        <app-text class="text-container" data-aos="fade-up" data-aos-duration="700" [text]="'parrafo_1_home' | translate"></app-text>
+        <app-text class="text-container" data-aos="fade-up" data-aos-duration="700" [text]="'parrafo_2_home' | translate"></app-text>
     </article>
 </main>
-<app-arrow-scroll></app-arrow-scroll>
-
+<app-arrow-scroll (videoPlayEvent)="changeStatusVideo($event)"></app-arrow-scroll>
 <app-footer class="footer"></app-footer>

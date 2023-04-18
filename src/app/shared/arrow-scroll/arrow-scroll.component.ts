@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild, OnInit, Input, AfterViewInit } from '@angular/core';
+import { Component, ElementRef, ViewChild, Output, AfterViewInit, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,33 +8,44 @@ import { Router } from '@angular/router';
 })
 export class ArrowScrollComponent implements AfterViewInit {
   @ViewChild('arrowScroll') arrowScrollElem: ElementRef = <ElementRef>{};
+  @Output() videoPlayEvent = new EventEmitter<string>();
 
   public isInTop: boolean = true; 
 
   constructor(private router: Router) {
-    let url = this.router.url.substring(1, this.router.url.length);
-    
-    if (url == '#video') {
-      this.isInTop = true;
-    } else if (url == '#info') {
-      this.isInTop = false;
-    }
+
   }
 
   ngAfterViewInit() : void {
-    this.scrollArrow();
+    let url = this.router.url.substring(1, this.router.url.length);
+    
+    if (url == '#info')
+      this.isInTop = false;
+    else
+
+    this.scrollArrow(false);
   }
   
-  scrollArrow() {
-    console.log(this.arrowScrollElem);
-    if (this.isInTop) {
-      //this.arrowScrollElem.nativeElement.hash = "#info";
-      
-    } else {
-      //this.arrowScrollElem.nativeElement.hash = "#video";
-      
-    }
+  scrollArrow(isClicking: boolean) {
+    if (this.isInTop)
+      this.arrowScrollElem.nativeElement.href = "#info";
+    else 
+      this.arrowScrollElem.nativeElement.href = "#video";  
 
-    this.isInTop = !this.isInTop;
+    if (isClicking) {       
+      this.isInTop = !this.isInTop;
+
+      if (this.isInTop)
+        this.changeStatusVideo("play");
+      else    
+        this.changeStatusVideo("pause");
+    } 
   }
+
+
+  changeStatusVideo(value: string) {
+    this.videoPlayEvent.emit(value);
+  }
+
+
 }

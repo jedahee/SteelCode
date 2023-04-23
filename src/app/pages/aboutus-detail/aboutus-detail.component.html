@@ -1,0 +1,12 @@
+<app-header [type]="'type2'" (select_lang)="selectLang($event)"></app-header>
+<main class="main_about_us_detail">
+    <app-decorate class="decorate" data-aos="fade-right" data-aos-duration="700" [class_type]="'type3'"></app-decorate>
+    <app-decorate class="decorate" data-aos="fade-left" data-aos-duration="700" [class_type]="'type4'"></app-decorate>
+    <app-user-title-page class="user-title-page" [name]="name"></app-user-title-page>
+    <div class="info_user">
+        <app-text class="text-container" data-aos="fade-up" data-aos-duration="700" [text]="'parrado_1_aboutus' | translate"></app-text>
+        <app-info-user data-aos="fade-left" data-aos-duration="700" class="links-info"></app-info-user>
+    </div>
+    <app-slider-users data-aos="fade-up" data-aos-duration="700" class="slider-container"></app-slider-users>
+</main>
+<app-footer class="footer"></app-footer>

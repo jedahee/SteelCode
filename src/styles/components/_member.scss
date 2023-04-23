@@ -1,0 +1,28 @@
+.member {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+
+    img {
+        width: 64px;
+        z-index: 2;
+    }
+
+    h3 {
+        color: $light;
+        margin: $sep-xs 0;
+    }
+
+    p {
+        color: $gray;
+        font-size: $font-xs;
+        min-width: 160px;
+    }
+
+    h3, p {
+        
+        text-align: center;
+    }
+}

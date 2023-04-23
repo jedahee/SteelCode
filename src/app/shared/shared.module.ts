@@ -16,6 +16,10 @@ import { ArrowScrollComponent } from './arrow-scroll/arrow-scroll.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { SliderUsersComponent } from './slider-users/slider-users.component';
+import { MemberComponent } from './member/member.component';
+import { UserTitlePageComponent } from './user-title-page/user-title-page.component';
+import { InfoUserComponent } from './info-user/info-user.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -31,7 +35,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     DecorateComponent,
     TitleComponent,
     TextComponent,
-    ArrowScrollComponent
+    ArrowScrollComponent,
+    SliderUsersComponent,
+    MemberComponent,
+    UserTitlePageComponent,
+    InfoUserComponent
   ],
   imports: [
     CommonModule,
@@ -59,7 +67,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     TitleComponent,
     TextComponent,
     ArrowScrollComponent,
-    
+    SliderUsersComponent,
+    MemberComponent,
+    UserTitlePageComponent,
+    InfoUserComponent
   ]
 })
 export class SharedModule { }

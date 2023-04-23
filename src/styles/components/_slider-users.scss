@@ -1,0 +1,39 @@
+.slider-container {
+
+    h2 {
+        font-size: $font-xxxxl - .5rem;
+        font-family: 'BSD';
+        text-align: center;
+        margin: $sep-xl 0;
+        color: $light;
+        .color {
+            color: $red;
+            font-family: 'BSD';
+
+        }
+    }
+
+    .slider {
+        gap: 2rem;
+        padding: $sep-md 0;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        margin: auto;
+        max-width: 75%;
+        padding-bottom: .4rem;
+    }
+}
+
+.slider::-webkit-scrollbar {
+    background-color: $dark;
+    height: 2px;
+}
+
+.slider::-webkit-scrollbar-thumb {
+    background-color: $light;
+}

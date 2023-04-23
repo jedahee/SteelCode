@@ -1,7 +1,14 @@
+.main_home + .footer {
+    bottom: -100vh;
+}
+
+.main_about_us + .footer {
+    bottom: 0vh;
+}
+
 .footer {
     width: 100%;
     position: absolute;
-    bottom: -100vh;
 
     footer {
         width: 100%;

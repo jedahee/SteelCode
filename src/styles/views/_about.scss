@@ -1,0 +1,47 @@
+.main_about_us,.main_about_us_detail {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    .title-container {
+        margin-bottom: $sep-md;
+    }
+
+    .text-container {
+        text-align: justify;
+        display: block;
+        width: 65%;
+        margin: $sep-xs auto;
+    }
+
+}
+.main_about_us {
+
+    h1 {
+        margin-top: $sep-md;
+    }
+}
+
+.main_about_us_detail {
+
+    h1 {
+        margin-left: $sep-md;
+    }
+
+    .slider-container h2 {
+        margin-top: 0;
+    }
+    
+    .user-title-page {
+        margin-top: $sep-xxxl + .5rem;
+    }
+
+    .text-container {
+        padding: 0 $sep-xxxl;
+        padding-right: $sep-xxxl + 2rem;
+        width: 100%;
+    }
+}

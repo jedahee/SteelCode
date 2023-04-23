@@ -113,9 +113,6 @@ div.type1.c-15, .arrow-scroll .type1.c-15 {
     transition: all .1s .3s ease;
 }
 
-.arrow-scroll .type1.c-1 {
-
-}
 .arrow-scroll .type1.c-2 {
     top: 83%;
     left: 81%;
@@ -179,6 +176,300 @@ li.type1:hover > .type1,li.type1:focus > .type1,.arrow-scroll:hover >.type1, .ar
     transform: translate(-50%, -50%) scale(1);
 }
 
-li.type1 {
+div.type2 {
+    z-index: -1;
+    position: absolute;
+    background-color: $red;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scaleY(0) rotate(0);
+}
 
+.member > div.type2 {
+    top: 25%;
+}
+
+div.type2.c-1  {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid $red;
+    transition: transform .15s .3s ease;
+}
+
+li.type2:hover > .type2.c-1,li.type2:focus > .type2.c-1, .member:hover > .type2.c-1,.member:focus > .type2.c-1 {
+    transform: translate(100%, -48%) scaleY(1) rotate(90deg);
+}
+
+.member > div.type2.c-1 {
+    border-bottom: 35px solid $red;
+}
+
+div.type2.c-2  {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 40px solid $red;
+    transition: transform .3s ease;
+}
+
+li.type2:hover > .type2.c-2,li.type2:focus > .type2.c-2, .member:hover > .type2.c-2,.member:focus > .type2.c-2 {
+    transform: translate(-52%, -10%) scaleY(1) rotate(180deg);
+}
+
+.member > div.type2.c-2 {
+    border-bottom: 55px solid $red;
+}
+
+div.type2.c-3  {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 40px solid $red;
+    
+    transition: transform .3s ease;
+}
+
+li.type2:hover > .type2.c-3,li.type2:focus > .type2.c-3, .member:hover > .type2.c-3,.member:focus > .type2.c-3 {
+    transform: translate(-127%, -45%) scaleY(1) rotate(-90deg);
+}
+
+.member > div.type2.c-3 {
+    border-bottom: 55px solid $red;
+}
+
+div.type2.c-4  {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 35px solid $red;
+    
+    transition: transform .1s .3s ease;
+}
+
+li.type2:hover > .type2.c-4,li.type2:focus > .type2.c-4, .member:hover > .type2.c-4,.member:focus > .type2.c-4 {
+    transform: translate(-50%, -80%) scaleY(1) rotate(0deg);
+}
+
+.member > div.type2.c-4 {
+    border-bottom: 50px solid $red;
+}
+
+div.type2.c-5  {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 35px solid $red;
+    
+    transition: transform .1s .3s ease;
+}
+
+li.type2:hover > .type2.c-5,li.type2:focus > .type2.c-5, .member:hover > .type2.c-5,.member:focus > .type2.c-5 {
+    transform: translate(0%, -30%) scaleY(1) rotate(135deg);
+}
+
+.member > div.type2.c-5 {
+    border-bottom: 50px solid $red;
+}
+
+div.type2.c-6  {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 40px solid $red;
+    transition: transform .3s ease;
+    
+}
+
+li.type2:hover > .type2.c-6,li.type2:focus > .type2.c-6, .member:hover > .type2.c-6,.member:focus > .type2.c-6 {
+    transform: translate(-130%, -27%) scaleY(1) rotate(-126deg);
+}
+
+.member > div.type2.c-6 {
+    border-bottom: 55px solid $red;
+}
+
+div.type2.c-7  {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 40px solid $red;
+    
+    transition: transform .1s .3s ease;
+}
+
+li.type2:hover > .type2.c-7,li.type2:focus > .type2.c-7, .member:hover > .type2.c-7,.member:focus > .type2.c-7 {
+    transform: translate(-100%, -70%) scaleY(1) rotate(-45deg);
+}
+
+.member > div.type2.c-7 {
+    border-bottom: 55px solid $red;
+}
+
+div.type2.c-8  {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 40px solid $red;
+    
+    transition: transform .15s .3s ease;
+}
+
+li.type2:hover > .type2.c-8,li.type2:focus > .type2.c-8, .member:hover > .type2.c-8,.member:focus > .type2.c-8 {
+    transform: translate(0%, -70%) scaleY(1) rotate(45deg);
+}
+
+.member > div.type2.c-8 {
+    border-bottom: 55px solid $red;
+}
+
+
+div.type2.c-9  {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 47px solid $red;
+    
+    transition: transform .1s .3s ease;
+}
+
+li.type2:hover > .type2.c-9,li.type2:focus > .type2.c-9, .member:hover > .type2.c-9,.member:focus > .type2.c-9 {
+    transform: translate(82%, -37%) scaleY(1) rotate(111deg)
+}
+
+.member > div.type2.c-9 {
+    border-bottom: 53px solid $red;
+}
+
+div.type2.c-10 {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 47px solid $red;
+    
+    transition: transform .23s .3s ease;
+}
+
+li.type2:hover > .type2.c-10,li.type2:focus > .type2.c-10, .member:hover > .type2.c-10,.member:focus > .type2.c-10 {
+    transform: translate(-3%, -22%) scaleY(1) rotate(155deg);
+}
+
+.member > div.type2.c-10 {
+    border-bottom: 53px solid $red;
+}
+
+div.type2.c-11 {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 47px solid $red;
+    
+    transition: transform .3s ease;
+}
+
+li.type2:hover > .type2.c-11,li.type2:focus > .type2.c-11, .member:hover > .type2.c-11,.member:focus > .type2.c-11 {
+    transform: translate(-100%, -20%) scaleY(1) rotate(200deg);
+}
+
+.member > div.type2.c-11 {
+    border-bottom: 53px solid $red;
+}
+
+div.type2.c-12 {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 47px solid $red;
+    
+    transition: transform .23s .3s ease;
+}
+
+li.type2:hover > .type2.c-12,li.type2:focus > .type2.c-12, .member:hover > .type2.c-12,.member:focus > .type2.c-12 {
+    transform: translate(-160%, -55%) scaleY(1) rotate(-67deg);
+}
+
+.member > div.type2.c-12 {
+    border-bottom: 53px solid $red;
+}
+
+div.type2.c-13 {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 12px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 40px solid $red;
+    
+    transition: transform .15s .3s ease;
+}
+
+li.type2:hover > .type2.c-13,li.type2:focus > .type2.c-13, .member:hover > .type2.c-13,.member:focus > .type2.c-13 {
+    transform: translate(-21%, -76%) scaleY(1) rotate(17deg);
+}
+
+.member > div.type2.c-13 {
+    border-bottom: 55px solid $red;
+}
+
+div.type2.c-14 {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 47px solid $red;
+    
+    transition: transform .15s .3s ease;
+}
+
+li.type2:hover > .type2.c-14,li.type2:focus > .type2.c-14, .member:hover > .type2.c-14,.member:focus > .type2.c-14 {
+    transform: translate(-88%, -61%) scaleY(1) rotate(-23deg);
+}
+
+.member > div.type2.c-14 {
+    border-bottom: 53px solid $red;
+}
+
+div.type2.c-15 {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 47px solid $red;
+    
+    transition: transform .1s .3s ease;
+}
+
+li.type2:hover > .type2.c-15,li.type2:focus > .type2.c-15, .member:hover > .type2.c-15,.member:focus > .type2.c-15 {
+    transform: translate(46%, -59%) scaleY(1) rotate(76deg);
+}
+
+.member > div.type2.c-15 {
+    border-bottom: 53px solid $red;
 }

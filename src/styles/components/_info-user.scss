@@ -1,0 +1,48 @@
+.info_user {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    
+    .links-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-left: 2px solid $gray;
+
+        h3 {
+            text-align: center;
+            color: $light;
+            font-family: 'BSD';
+            font-size: $font-xxxl;
+            span {
+                color: $red;
+                font-family: 'BSD';
+            }
+        }
+    
+        & > div {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: flex-start;
+            margin: $sep-sm 0;
+        }
+
+        .media_container {
+            .icon {
+                width: 39px;
+                height: 39px;
+                margin: 0 $sep-xs;
+                cursor: pointer;
+            }
+        }
+
+        .projects_container {
+            color: $gray;
+            
+            span {
+                color: $gray;
+                margin: 0 $sep-xxs;
+            }
+        }
+    }
+}

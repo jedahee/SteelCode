@@ -1,0 +1,14 @@
+.user-title-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img {
+        width: 74px;
+    }
+
+    h1 {
+        color: $light;
+        font-size: $font-xxxxl + 2rem;
+    }
+}

@@ -39,7 +39,6 @@
             }
 
             ul {
-                box-shadow: 0px 1px 100px 1px rgba(201, 201, 201, 0.25);
                 transition: all .3s ease;
                 opacity: 0;
                 width: max-content;
@@ -64,7 +63,14 @@
 
                 }
             }
-        }
+
+            &:has(.type1) > ul {
+                box-shadow: 0px 1px 100px 1px rgba(201, 201, 201, 0.25);
+            }
+
+            &:has(.type2) > ul {
+                box-shadow: 0px 1px 100px 1px rgba(236, 86, 86, 0.25)            }
+            }
 
         li:hover > ul {
             opacity: 1;

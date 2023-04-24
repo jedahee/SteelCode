@@ -41,7 +41,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     VgOverlayPlayModule,
     VgBufferingModule,
     TranslateModule.forRoot({
-      defaultLanguage: 'es',
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,

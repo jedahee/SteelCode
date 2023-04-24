@@ -1,1 +1,29 @@
-<p>page-not-found works!</p>
+<app-header [type]="'type1'" (select_lang)="selectLang($event)"></app-header>
+<main class="main_404">
+        <app-decorate class="decorate" data-aos="fade-left" data-aos-duration="700" [class_type]="'type1'"></app-decorate>
+        <app-decorate class="decorate" data-aos="fade-right" data-aos-duration="700" [class_type]="'type2'"></app-decorate>
+        <app-decorate class="decorate" data-aos="fade-right" data-aos-duration="700" [class_type]="'type2_1'"></app-decorate>
+        <app-title class="title-container" data-aos="fade-down" data-aos-duration="700" [title]="'404_text' | translate"></app-title>
+        <app-text class="text-container" data-aos="fade-up" data-aos-duration="700" [text]="'(404 Error)'"></app-text>
+
+        <a [routerLink]="['']" class="link-back" data-aos="fade-up" data-aos-duration="700">
+            <div class="icon home-smile-icon"></div>
+            <div class="type1 c-1"></div>
+            <div class="type1 c-2"></div>
+            <div class="type1 c-3"></div>
+            <div class="type1 c-4"></div>
+            <div class="type1 c-5"></div>
+            <div class="type1 c-6"></div>
+            <div class="type1 c-7"></div>
+            <div class="type1 c-8"></div>
+            <div class="type1 c-9"></div>
+            <div class="type1 c-10"></div>
+            <div class="type1 c-11"></div>
+            <div class="type1 c-12"></div>
+            <div class="type1 c-13"></div>
+            <div class="type1 c-14"></div>
+            <div class="type1 c-15"></div>
+        </a>
+</main>
+<app-footer class="footer"></app-footer>
+

@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
   @ViewChild("video") video: ElementRef = <ElementRef>{};
   @Output() select_lang = new EventEmitter();
   constructor(private translate_s: TranslateService) {
+
   }
 
   ngOnInit(): void {

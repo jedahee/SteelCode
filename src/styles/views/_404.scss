@@ -1,0 +1,18 @@
+.main_404 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+    .text-container {
+        p {
+            font-weight: 600;
+            font-size: $font-lg;
+            letter-spacing: 1px;
+        }
+    }
+}

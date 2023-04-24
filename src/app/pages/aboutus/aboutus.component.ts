@@ -19,5 +19,6 @@ export class AboutusComponent implements OnInit {
 
   selectLang(event: string) {
     this.translate_s.use(event);
+
   }
 }

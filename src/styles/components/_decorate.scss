@@ -23,6 +23,14 @@
     left: -10%;
 }
 
+.decorate:has(.type2_1) {
+    background-image: url(../../assets/images/decorate_2-home.svg);
+    top: -3%;
+    left: -15%;
+    transform: rotate(-90deg) !important;
+}
+    
+
 .decorate:has(.type3) {
     bottom: -14%;
     z-index: 0;

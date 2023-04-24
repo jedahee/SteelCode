@@ -9,6 +9,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class MemberComponent implements OnInit {
 
   @Input() style_type : string = "";
+  @Input() name : string = "";
+  @Input() functions : string[] = [];
 
   constructor() { }
 

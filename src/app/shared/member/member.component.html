@@ -1,6 +1,8 @@
 <img src="../../../assets/images/img_user_aboutus.svg" alt="User profile">
-<h3>Rudahee</h3>
-<p>{{'tipo_colaboracion_1' | translate}}. {{'tipo_colaboracion_2' | translate}}</p>
+<h3>{{name}}</h3>
+<p>
+    <span *ngFor="let funct of functions">{{funct}}. </span>
+</p>
 
 <div class="{{style_type}} c-1"></div>
 <div class="{{style_type}} c-2"></div>

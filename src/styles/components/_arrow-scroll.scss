@@ -1,4 +1,4 @@
-.arrow-scroll {
+.arrow-scroll, .link-back {
     width: 52px;
     height: 52px;
     display: block;
@@ -15,6 +15,17 @@
     .icon {
         width: 34px;
         transition: .3s ease;
+    }
+}
+
+.link-back {
+    position: relative;
+    bottom: inherit;
+    right: inherit;
+    margin-top: $sep-xl;
+    .icon {
+        width: 26px;
+        height: 26px;
     }
 }
 

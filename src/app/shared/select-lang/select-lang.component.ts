@@ -17,7 +17,7 @@ export class SelectLangComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.selectLang("es");
+    this.selectLang(localStorage.getItem("lang_sct") || 'es');
   }
 
   selectLang(lang: string) {

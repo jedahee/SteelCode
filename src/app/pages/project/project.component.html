@@ -1,0 +1,14 @@
+<app-header [type]="'type3'" class="{{hamburguer_active ? 'active_header' : ''}}" (select_lang)="selectLang($event)"></app-header>
+<div class="hamburguer {{hamburguer_active && 'active'}}" (click)="changeMenuStatus()">
+    <div class="line1"></div>
+    <div class="line2"></div>
+</div>
+<main class="main_projects">
+    <app-decorate class="decorate" data-aos="fade-right" data-aos-duration="700" [class_type]="'type5'"></app-decorate>
+    <app-decorate class="decorate" data-aos="fade-left" data-aos-duration="700" [class_type]="'type6'"></app-decorate>
+    <img src="../../../assets/images/{{ src_title }}" alt="Metallic Arts Mod" data-aos="fade-down" data-aos-duration="700">
+    <app-text class="text-container" data-aos="fade-right" data-aos-duration="700" [text]="text | translate"></app-text>
+    <app-users-in-project [users_involved]="users_involved" data-aos="fade-left" data-aos-duration="700" class="users-in-project-container"></app-users-in-project>
+    <app-links-project [media_project]="media_project" data-aos="fade-up" data-aos-duration="700" class="links-project-container"></app-links-project>
+</main>
+<app-footer class="footer"></app-footer>

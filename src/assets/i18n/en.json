@@ -23,10 +23,24 @@
     "ha_palabra": "Has",
     "en_palabra": "in",
     "participar_palabra": "participated",
-
     "encontrar_palabra": "Find it",
-
+    "personas_palabra": "Project",
+    "involucrada_palabra": "members",
+    "siguenos_palabra": "Follow us",
+    "avances_palabra": "progress",
+    "comunidad_avances": "community",
+    "observa_nuestro_palabras": "Watch our",
+    "unete_comunidad_palabras": "Join our",
+    "en_sobre_palabra": "on",
+    "envianos_un_palabras": "Send us a",
+    "mensaje_palabra": "message!",
+    "introducir_email": "Enter your email",
+    "escribir_email": "Share with us what you think",
     "parrafo_rudahee": "Texto1Esnglish Rudahee Lorem consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam Lorem consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+
+    "parrafo_project_mam": "TextoIngles Parrado del Proyecto Metallics Arts Mod, Nulla rem veritatis vitae dolore totam quibusdam Lorem consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? Lorem Lorem ipsum Nulla rem veritatis",
+
+    "titulo_contactus": "Contact us",
 
     "404_text": "Page Not Found"
 

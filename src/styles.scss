@@ -24,13 +24,20 @@
 @import './styles/components/member';
 @import './styles/components/user-title-page';
 @import './styles/components/info-user';
+@import './styles/components/links-project';
+@import './styles/components/users-in-project';
+@import './styles/components/form';
+@import './styles/components/links-steelcode';
+@import './styles/components/hamburguer';
 
 // * VIEWS
 @import './styles/views/home';
 @import './styles/views/about';
 @import './styles/views/projects';
+@import './styles/views/contact';
 @import './styles/views/404';
 
 // * LAYOUT
+@import './styles/layout/header';
 @import './styles/layout/home';
 @import './styles/layout/404';

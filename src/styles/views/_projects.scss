@@ -1,3 +1,34 @@
 .main_projects {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    
+    grid-template-areas: "title title"
+                         "text users-in-project"
+                         "links-project users-in-project";
+
+    
+    & > img {
+        grid-area: title;
+        width: 100%;
+        margin-top: 107px;
+    }
+
+    .text-container {
+        padding: $sep-md $sep-xxxl;
+        grid-area: text;
+        text-align: justify;
+        padding-left: $sep-xxxl + 2rem;
+
+    }
+
+    .users-in-project-container {
+        padding: $sep-md $sep-xxxl;
+        grid-area: users-in-project
+    }
+
+    .links-project-container {
+        grid-area: links-project
+    }
     
 }

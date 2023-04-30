@@ -1,0 +1,33 @@
+.links_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    & > div {
+        h2 {
+            color: $light;
+            text-align: center;
+            font-family: 'BSD';
+            font-size: $font-xxxl;
+            span {
+                font-family: 'BSD';
+                color: $pink;
+            }
+        }
+        
+        .links {
+            display: flex;
+            width: 100%;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: $sep-sm;
+            
+            .icon {
+                margin-top: $sep-xs;
+                width: 39px;
+                height: 39px;
+            }
+        }
+    }
+}

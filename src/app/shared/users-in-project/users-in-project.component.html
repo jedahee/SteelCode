@@ -1,0 +1,4 @@
+<h3>{{"personas_palabra" | translate}} <span>{{"involucrada_palabra" | translate}}</span></h3>
+<div class="users">
+    <app-member *ngFor="let user of users_involved" [functions]="user.functions" [name]="user.name" [routerLink]="['/about-us/'+user.name]" [style_type]="user.type" class="member"></app-member>
+</div>

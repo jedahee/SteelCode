@@ -1,0 +1,36 @@
+.main_contact_us {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "title title title"
+                         "form separator links";
+    justify-content: center;
+
+    
+    .title-container {
+        grid-area: title;
+        margin-top: $sep-lg;
+    }
+
+    .form_container {
+        grid-area: form;
+        z-index: 1;
+        width: 100%;
+        min-width: 500px;
+    }
+
+    .separator {
+        grid-area: separator;
+        height: 300px;
+        width: 2px;
+        background-color: $pink;
+        border-radius: $rounded-sm;
+        margin: 0 ($sep-xxxl + 3.5rem);
+    }
+
+    .links_container {
+        grid-area: links;
+        z-index: 2;
+        width: 100%;
+    }
+}

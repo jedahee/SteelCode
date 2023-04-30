@@ -1,4 +1,8 @@
-<app-header [type]="'type2'" (select_lang)="selectLang($event)"></app-header>
+<app-header [type]="'type2'" class="{{hamburguer_active ? 'active_header' : ''}}" (select_lang)="selectLang($event)"></app-header>
+<div class="hamburguer {{hamburguer_active && 'active'}}" (click)="changeMenuStatus()">
+    <div class="line1"></div>
+    <div class="line2"></div>
+</div>
 <main class="main_about_us_detail">
     <app-decorate class="decorate" data-aos="fade-right" data-aos-duration="700" [class_type]="'type3'"></app-decorate>
     <app-decorate class="decorate" data-aos="fade-left" data-aos-duration="700" [class_type]="'type4'"></app-decorate>
@@ -7,6 +11,6 @@
         <app-text class="text-container" data-aos="fade-up" data-aos-duration="700" [text]="text | translate"></app-text>
         <app-info-user [projects]="projects" [social_media]="social_media" data-aos="fade-left" data-aos-duration="700" class="links-info"></app-info-user>
     </div>
-    <app-slider-users data-aos="fade-up" data-aos-duration="700" class="slider-container"></app-slider-users>
+    <app-slider-users (name_clicked)="select_info_user($event)" data-aos="fade-up" data-aos-duration="700" class="slider-container"></app-slider-users>
 </main>
 <app-footer class="footer"></app-footer>

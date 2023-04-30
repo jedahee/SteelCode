@@ -15,17 +15,26 @@ export class AboutusDetailComponent implements OnInit {
   public social_media: object = {};
   public projects: string[] = [];
   public text: string = "";
+  public hamburguer_active: boolean = false;
 
   constructor(private translate_s: TranslateService, private router: Router) {
     this.name = this.router.url.split("/")[2];
-
   }
 
   ngOnInit(): void {
     Aos.init();
+
+    if (this.name.toLowerCase() != "rudahee" && this.name.toLowerCase() != "tobias" /*or*/ ) {
+      this.router.navigate(["/"]);
+    }
+  }
+
+  changeMenuStatus() {
+    this.hamburguer_active = !this.hamburguer_active;
   }
 
   select_info_user(name: string) {
+    this.name = name;
     if (name.toLowerCase() == "rudahee") {
       this.social_media = [
         {
@@ -35,7 +44,25 @@ export class AboutusDetailComponent implements OnInit {
       ]
       this.projects = ['Metallics Arts Mod', 'Game']
       this.text = 'parrafo_rudahee';
+    } else if (name.toLowerCase() == "tobias") { 
+      this.social_media = [
+        {
+          url: "https://angular.io/guide/inputs-outputs",
+          class: "icon-ig"  
+        },
+        {
+          url: "https://angular.io/guide/inputs-outputs",
+          class: "icon-yt"  
+        },
+      ]
+      this.projects = ['Metallics Arts Mod']
+      this.text = 'parrafo_project_mam';
+    } else {
+      this.router.navigate(["/"]);
+
     }
+    
+    
   }
 
   selectLang(event: string) {

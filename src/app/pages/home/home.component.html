@@ -1,4 +1,8 @@
-<app-header class="header_home" [type]="'type1'" (select_lang)="selectLang($event)"></app-header>
+<app-header class="header_home {{hamburguer_active ? 'active_header' : ''}}" [type]="'type1'" (select_lang)="selectLang($event)"></app-header>
+<div class="hamburguer {{hamburguer_active && 'active'}}" (click)="changeMenuStatus()">
+    <div class="line1"></div>
+    <div class="line2"></div>
+</div>
 <main class="main_home">
     <article class="part-1" id="video">
         <!--<vg-player class="video-container">

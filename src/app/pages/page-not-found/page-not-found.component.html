@@ -1,4 +1,8 @@
-<app-header [type]="'type1'" (select_lang)="selectLang($event)"></app-header>
+<app-header [type]="'type1'" class="{{hamburguer_active ? 'active_header' : ''}}" (select_lang)="selectLang($event)"></app-header>
+<div class="hamburguer {{hamburguer_active && 'active'}}" (click)="changeMenuStatus()">
+    <div class="line1"></div>
+    <div class="line2"></div>
+</div>
 <main class="main_404">
         <app-decorate class="decorate" data-aos="fade-left" data-aos-duration="700" [class_type]="'type1'"></app-decorate>
         <app-decorate class="decorate" data-aos="fade-right" data-aos-duration="700" [class_type]="'type2'"></app-decorate>

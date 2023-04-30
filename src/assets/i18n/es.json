@@ -23,10 +23,25 @@
     "ha_palabra": "Ha",
     "en_palabra": "en",
     "participar_palabra": "participado",
-
     "encontrar_palabra": "Encuentralo",
-
+    "personas_palabra": "Personas",
+    "involucrada_palabra": "involucradas",
+    "siguenos_palabra": "Síguenos",
+    "avances_palabra": "avances",
+    "comunidad_avances": "comunidad",
+    "observa_nuestro_palabras": "Observa nuestros",
+    "unete_comunidad_palabras": "Únete a nuestra",
+    "en_sobre_palabra": "en",
+    "envianos_un_palabras": "¡Envíanos un",
+    "mensaje_palabra": "mensaje!",
+    "introducir_email": "Introduce tu email",
+    "escribir_email": "Comparte con nosotros lo que piensas",
+    
     "parrafo_rudahee": "Texto1Esp Rudahee Lorem consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    
+    "parrafo_project_mam": "TextoEsp Parrado del Proyecto Metallics Arts Mod, Nulla rem veritatis vitae dolore totam quibusdam Lorem consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? Lorem Lorem ipsum Nulla rem veritatis",
 
-    "404_text": "Página no encontrada"
+    "titulo_contactus": "Contáctanos",
+
+    "404_text": "Página no existente"
 }

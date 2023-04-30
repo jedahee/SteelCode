@@ -17,8 +17,8 @@
     <div class="{{style_type}} c-15"></div>
 
     <ul *ngIf="submenu">
-        <app-link-header [link]="submenu_links[0]" [text]="'Metallic Arts Mod'" [style_type]="'type1'"></app-link-header>
-        <app-link-header [link]="submenu_links[1]" [text]="'Game'" [style_type]="'type1'"></app-link-header>
+        <app-link-header [link]="submenu_links[0]" [text]="'Metallic Arts Mod'" [style_type]="style_type"></app-link-header>
+        <app-link-header [link]="submenu_links[1]" [text]="'Game'" [style_type]="style_type"></app-link-header>
     </ul>
 </li>
 
@@ -41,7 +41,25 @@
     <div class="{{style_type}} c-15"></div>
 
     <ul *ngIf="submenu">
-        <app-link-header [link]="submenu_links[0]" [text]="'Metallic Arts Mod'" [style_type]="'type2'"></app-link-header>
-        <app-link-header [link]="submenu_links[1]" [text]="'Game'" [style_type]="'type2'"></app-link-header>
+        <app-link-header [link]="submenu_links[0]" [text]="'Metallic Arts Mod'" [style_type]="style_type"></app-link-header>
+        <app-link-header [link]="submenu_links[1]" [text]="'Game'" [style_type]="style_type"></app-link-header>
+    </ul>
+</li>
+
+<li [routerLink]="[link]" class="{{style_type}}" *ngIf="style_type == 'type3'">
+    <span>{{text}}</span>
+    
+    <ul *ngIf="submenu">
+        <app-link-header [link]="submenu_links[0]" [text]="'Metallic Arts Mod'" [style_type]="style_type"></app-link-header>
+        <app-link-header [link]="submenu_links[1]" [text]="'Game'" [style_type]="style_type"></app-link-header>
+    </ul>
+</li>
+
+<li [routerLink]="[link]" class="{{style_type}}" *ngIf="style_type == 'type4'">
+    <span>{{text}}</span>
+    
+    <ul *ngIf="submenu">
+        <app-link-header [link]="submenu_links[0]" [text]="'Metallic Arts Mod'" [style_type]="style_type"></app-link-header>
+        <app-link-header [link]="submenu_links[1]" [text]="'Game'" [style_type]="style_type"></app-link-header>
     </ul>
 </li>

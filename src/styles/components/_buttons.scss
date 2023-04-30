@@ -1,0 +1,9 @@
+.btn-submit.type4 {
+    cursor: pointer;
+    background-color: $pink;
+    border-radius: $rounded-full;
+    padding: $sep-sm - .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

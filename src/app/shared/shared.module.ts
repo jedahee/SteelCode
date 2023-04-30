@@ -20,6 +20,10 @@ import { SliderUsersComponent } from './slider-users/slider-users.component';
 import { MemberComponent } from './member/member.component';
 import { UserTitlePageComponent } from './user-title-page/user-title-page.component';
 import { InfoUserComponent } from './info-user/info-user.component';
+import { UsersInProjectComponent } from './users-in-project/users-in-project.component';
+import { LinksProjectComponent } from './links-project/links-project.component';
+import { ContactLinksComponent } from './contact-links/contact-links.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -39,7 +43,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     SliderUsersComponent,
     MemberComponent,
     UserTitlePageComponent,
-    InfoUserComponent
+    InfoUserComponent,
+    UsersInProjectComponent,
+    LinksProjectComponent,
+    ContactLinksComponent,
+    ContactFormComponent
   ],
   imports: [
     CommonModule,
@@ -69,7 +77,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     SliderUsersComponent,
     MemberComponent,
     UserTitlePageComponent,
-    InfoUserComponent
+    InfoUserComponent,
+    UsersInProjectComponent,
+    LinksProjectComponent,
+    ContactLinksComponent,
+    ContactFormComponent
   ]
 })
 export class SharedModule { }

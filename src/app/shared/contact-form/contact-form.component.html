@@ -1,0 +1,12 @@
+<h2>{{"envianos_un_palabras" | translate}}<span> {{"mensaje_palabra" | translate}}</span></h2>
+<form class="form" (ngSubmit)="sendEmail($event)">
+    <div class="input-gmail">
+        <div class="icon icon-at-sign"></div>
+        <input type="email" name="user_email" id="email" [placeholder]="'introducir_email' | translate">
+    </div>
+
+    <div class="textarea-msg-btn">
+        <textarea [placeholder]="'escribir_email' | translate" name="message" id="msg_email" required></textarea>
+        <button type="submit" class="btn-submit type4"><div class="icon icon-send"></div></button>
+    </div>
+</form>

@@ -8,8 +8,15 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class PageNotFoundComponent {
   @Output() select_lang = new EventEmitter();
+  
+  public hamburguer_active: boolean = false;
+
   constructor(private translate_s: TranslateService) {
 
+  }
+
+  changeMenuStatus() {
+    this.hamburguer_active = !this.hamburguer_active;
   }
 
   ngOnInit(): void {

@@ -1,0 +1,15 @@
+<app-header class="{{hamburguer_active ? 'active_header' : ''}}" [type]="'type4'" (select_lang)="selectLang($event)"></app-header>
+<div class="hamburguer {{hamburguer_active && 'active'}}" (click)="changeMenuStatus()">
+        <div class="line1"></div>
+        <div class="line2"></div>
+    </div>
+<main class="main_contact_us">
+        <app-decorate class="decorate" data-aos="fade-left" data-aos-duration="700" [class_type]="'type7'"></app-decorate>
+        <app-decorate class="decorate" data-aos="fade-right" data-aos-duration="700" [class_type]="'type8'"></app-decorate>
+        <app-title class="title-container" data-aos="fade-down" data-aos-duration="700" [title]="'titulo_contactus' | translate"></app-title>
+
+        <app-contact-form data-aos="fade-right" data-aos-duration="700" class="form_container"></app-contact-form>
+        <div data-aos="zoom-in" data-aos-duration="700" class="separator"></div>
+        <app-contact-links data-aos="fade-left" data-aos-duration="700" class="links_container"></app-contact-links>
+</main>
+<app-footer class="footer"></app-footer>

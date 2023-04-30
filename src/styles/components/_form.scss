@@ -1,0 +1,81 @@
+.form_container {
+
+    & > h2 {
+        color: $light;
+        font-family: 'BSD';
+        font-size: $font-xxxl;
+        text-align: start;
+        
+        span {
+            font-family: 'BSD';
+            color: $pink;
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+
+        .input-gmail, .textarea-msg-btn {
+            position: relative;
+            border-radius: $rounded-md;
+            padding: $sep-md - .3rem;
+            width: 100%;
+            margin-top: $sep-md;
+            padding-left: $sep-xxl;
+            border: 2px solid $light;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all .3s .1s ease;
+
+            #email {
+                color: $light;
+                font-family: 'Noto Sans Light';
+                letter-spacing: 1px;
+                background-color: transparent;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        
+        .input-gmail:hover, .input-gmail:focus {
+            border: 2px solid $pink;
+        }
+
+        .input-gmail > .icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .textarea-msg-btn {
+            margin-top: inherit;
+            padding: $sep-sm;
+            width: 100%;
+
+            #msg_email {
+                color: $light;
+                font-family: 'Noto Sans Light';
+                letter-spacing: 1px;
+                background-color: transparent;
+                width: 100%;
+                height: 150px;
+                resize: none;
+            }
+            .btn-submit {
+                position: absolute;
+                right: -20px;
+                bottom: -20px;
+            }
+        }
+
+        .textarea-msg-btn:hover, .textarea-msg-btn:focus {
+            border: 2px solid $pink;
+        }
+    }
+}

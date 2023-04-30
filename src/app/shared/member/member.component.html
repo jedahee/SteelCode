@@ -1,21 +1,24 @@
-<img src="../../../assets/images/img_user_aboutus.svg" alt="User profile">
+<img *ngIf="style_type == 'type2'" src="../../../assets/images/img_user_aboutus.svg" alt="User profile">
+<img *ngIf="style_type == 'type3'" src="../../../assets/images/img_user_project.svg" alt="User profile">
 <h3>{{name}}</h3>
 <p>
-    <span *ngFor="let funct of functions">{{funct}}. </span>
+    <span *ngFor="let funct of functions">{{funct | translate }}. </span>
 </p>
 
-<div class="{{style_type}} c-1"></div>
-<div class="{{style_type}} c-2"></div>
-<div class="{{style_type}} c-3"></div>
-<div class="{{style_type}} c-4"></div>
-<div class="{{style_type}} c-5"></div>
-<div class="{{style_type}} c-6"></div>
-<div class="{{style_type}} c-7"></div>
-<div class="{{style_type}} c-8"></div>
-<div class="{{style_type}} c-9"></div>
-<div class="{{style_type}} c-10"></div>
-<div class="{{style_type}} c-11"></div>
-<div class="{{style_type}} c-12"></div>
-<div class="{{style_type}} c-13"></div>
-<div class="{{style_type}} c-14"></div>
-<div class="{{style_type}} c-15"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-1"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-2"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-3"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-4"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-5"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-6"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-7"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-8"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-9"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-10"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-11"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-12"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-13"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-14"></div>
+<div *ngIf="style_type != 'type3'" class="{{style_type}} c-15"></div>
+
+<div *ngIf="style_type == 'type3'" class="{{style_type}}"></div>

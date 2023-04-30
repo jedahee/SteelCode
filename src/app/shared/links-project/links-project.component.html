@@ -1,0 +1,7 @@
+<h3><span>{{"encontrar_palabra" | translate}}</span> {{"en_palabra" | translate}}:</h3>
+<div class="links-project">
+    <a *ngFor="let media of media_project" [href]="media.link" class="link">
+        <div class="icon {{ media.icon }}"></div>
+        <span>{{ media.name }}</span>
+    </a>
+</div>

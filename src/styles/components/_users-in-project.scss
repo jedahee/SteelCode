@@ -1,0 +1,31 @@
+.users-in-project-container {
+    & > h3 {
+        color: $light;
+        font-size: $font-xxxl;
+        font-family: 'BSD';
+        margin-bottom: $sep-lg;
+        z-index: 3;
+        
+        span {
+            font-family: 'BSD';
+            color: $green;
+        }
+    }
+
+    .users {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        overflow-y: auto;
+        height: 400px;
+    }
+
+    .users::-webkit-scrollbar {
+        background-color: $dark;
+        width: 2px;
+    }
+    
+    .users::-webkit-scrollbar-thumb {
+        background-color: $light;
+    }
+}

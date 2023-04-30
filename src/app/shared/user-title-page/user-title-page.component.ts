@@ -21,8 +21,9 @@ export class UserTitlePageComponent implements OnInit {
       this.src = "../../../assets/images/img_user_aboutus.svg";
       this.name_output.emit(this.name);
     } 
-    else if (this.name.toLowerCase() == "rudahee") {
-      this.src = ""
+    else if (this.name.toLowerCase() == "tobias") {
+      this.src = "../../../assets/images/img_user_aboutus.svg";
+      this.name_output.emit(this.name);
     } 
     else if (this.name.toLowerCase() == "rudahee") {
       this.src = ""

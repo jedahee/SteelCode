@@ -69,8 +69,18 @@
             }
 
             &:has(.type2) > ul {
-                box-shadow: 0px 1px 100px 1px rgba(236, 86, 86, 0.25)            }
+                box-shadow: 0px 1px 100px 1px rgba(236, 86, 86, 0.25);
             }
+
+            &:has(.type3) > ul {
+                box-shadow: 0px 1px 100px 1px rgba(167, 201, 87, 0.25);
+            }
+
+            &:has(.type4) > ul {
+                box-shadow: 0px 1px 100px 1px rgba(255, 51, 119, 0.25);
+            }
+            
+        }
 
         li:hover > ul {
             opacity: 1;

@@ -16,6 +16,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { AboutusDetailComponent } from './pages/aboutus-detail/aboutus-detail.component';
+import { ProjectComponent } from './pages/project/project.component';
+import { ContactusComponent } from './pages/contactus/contactus.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -26,7 +28,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeComponent,
     PageNotFoundComponent,
     AboutusComponent,
-    AboutusDetailComponent
+    AboutusDetailComponent,
+    ProjectComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,

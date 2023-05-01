@@ -29,7 +29,7 @@
 
     .title-container {
         grid-area: title;
-        margin-top: $sep-lg;
+        margin-top: $sep-lg + .5rem;
     }
 
     .form_container {

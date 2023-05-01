@@ -40,6 +40,10 @@ body:has(.main_home) {
 
     .texts-container {
         width: 65%;
+        z-index: 2;
+        overflow-y: auto;
+        height: 300px;
+        padding-right: $sep-sm;
     }
     .text-container {
         width: 100%;

@@ -20,9 +20,6 @@
 
         .texts-container {
             width: 85%;
-            overflow-y: auto;
-            height: 400px;
-            padding-right: $sep-sm;
         }
 
         .texts-container::-webkit-scrollbar {

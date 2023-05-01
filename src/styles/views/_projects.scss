@@ -18,8 +18,19 @@
         padding: $sep-md $sep-xxxl;
         grid-area: text;
         text-align: justify;
+        height: 220px;
+        overflow-y: auto;
         padding-left: $sep-xxxl + 2rem;
 
+    }
+
+    .text-container::-webkit-scrollbar {
+        background-color: $dark;
+        width: 2px;
+    }
+    
+    .text-container::-webkit-scrollbar-thumb {
+        background-color: $light;
     }
 
     .users-in-project-container {

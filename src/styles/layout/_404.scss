@@ -1,0 +1,44 @@
+@media (max-width: 875px) {
+    .main_404 {
+        
+        .decorate:has(.type1) {
+            top: -100px;
+            right: -161px;
+        }
+
+        .decorate:has(.type2_1) {
+            top: -120px;
+        }
+    }
+
+    body:has(.main_404) .hamburguer {
+        border-color: $pure_dark;
+        
+        div {
+            border-color: $pure_dark;
+        }
+    }
+    
+    body:has(.main_404) .hamburguer.active {
+        border-color: $light;
+        
+        div {
+            border-color: $light;
+        }
+    }
+}
+
+@media (max-width: 735px) { 
+    .main_404 .decorate:has(.type1) {
+        top: -150px;
+        right: -211px;
+    }
+}
+@media (max-width: 665px) {
+    .main_404 {
+
+        .decorate:has(.type2_1) {
+            display: none;
+        }
+    }
+}

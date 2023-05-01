@@ -14,19 +14,19 @@
 .decorate:has(.type1) {
     background-image: url(../../assets/images/decorate_1-home.svg);
     top: 0;
-    right: -6%;
+    right: -100px;
 }
 
 .decorate:has(.type2) {
     background-image: url(../../assets/images/decorate_2-home.svg);
     bottom: -35%;
-    left: -10%;
+    left: -160px;
 }
 
 .decorate:has(.type2_1) {
     background-image: url(../../assets/images/decorate_2-home.svg);
     top: -3%;
-    left: -15%;
+    left: -220px;
     transform: rotate(-90deg) !important;
 }
     

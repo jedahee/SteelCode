@@ -28,7 +28,7 @@
 }
 
 .hamburguer.active {
-    
+    position: fixed;
     .line1 {
         transform: rotate(45deg);
         margin-bottom: -1.5px;

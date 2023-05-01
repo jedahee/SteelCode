@@ -27,6 +27,15 @@ body {
     background-color: $pure_dark;
 }
 
+body::-webkit-scrollbar {
+    background-color: $dark;
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $light;
+}
+
 // * FONT TITLES
 h1 {
     font-family: 'BSD' !important;

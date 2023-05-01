@@ -6,7 +6,7 @@
 export const environment = {
     production: false,
     API_PUBLIC_EMAILJS: "FmHlp1LvKODdHqKxp",
-    SERVICE_ID: "service_y368qj5",
+    SERVICE_ID: "service_0rmqtzt",
     TEMPLATE_ID: "template_4atmzia",
   };
   

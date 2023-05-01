@@ -4,7 +4,7 @@
     }
 
     .header > ul ul li {
-        color: $pure_dark;
+        color: $light;
     }
 
     .header > ul li {
@@ -38,7 +38,8 @@
                 
                 ul {
                     top: 100%;
-                    background-color: $light;
+                    z-index: 3;
+                    background-color: $dark;
                     
                     li {
                         margin: $sep-sm 0;

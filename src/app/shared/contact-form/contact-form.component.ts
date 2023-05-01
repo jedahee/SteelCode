@@ -12,15 +12,23 @@ export class ContactFormComponent {
   public TEMPLATE_ID: string = environment.TEMPLATE_ID;
   public KEY: string = environment.API_PUBLIC_EMAILJS;
 
+  public from_email : string = "";
+  public message : string = "";
+  public send_msg : string = "";
+  public is_success_sent: boolean = false;
+
   constructor() { }
 
   sendEmail(e: Event) {
-    console.log(e);
     emailjs.sendForm(this.SERVICE_ID, this.TEMPLATE_ID, e.target as HTMLFormElement, this.KEY)
       .then((result: EmailJSResponseStatus) => {
-        console.log(result.text);
+        this.from_email = "";
+        this.message = "";
+        this.send_msg = "contacto_formulario_enviado_satis";
+        this.is_success_sent = true;
       }, (error:any) => {
-        console.log(error.text);
+        this.send_msg = "contacto_formulario_enviado_err";
+        this.is_success_sent = false;
       });
   }
 }

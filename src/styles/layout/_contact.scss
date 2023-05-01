@@ -33,7 +33,7 @@
         .separator {
             height: 2px;
             width: 100%;
-            margin: $sep-xxl 0;
+            margin: $sep-xxl+$sep-xxl 0 $sep-xxl 0;
         }
 
         .title-container {

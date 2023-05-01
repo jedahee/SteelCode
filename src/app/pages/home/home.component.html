@@ -1,8 +1,5 @@
 <app-header class="header_home {{hamburguer_active ? 'active_header' : ''}}" [type]="'type1'" (select_lang)="selectLang($event)"></app-header>
-<div class="hamburguer {{hamburguer_active && 'active'}}" (click)="changeMenuStatus()">
-    <div class="line1"></div>
-    <div class="line2"></div>
-</div>
+
 <main class="main_home">
     <article class="part-1" id="video">
         <!--<vg-player class="video-container">
@@ -18,11 +15,18 @@
     </article>
 
     <article class="part-2" id="info">
+        <div class="hamburguer {{hamburguer_active && 'active'}}" (click)="changeMenuStatus()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>
+        
         <app-decorate class="decorate" data-aos="fade-left" data-aos-duration="700" [class_type]="'type1'"></app-decorate>
         <app-decorate class="decorate" data-aos="fade-right" data-aos-duration="700" [class_type]="'type2'"></app-decorate>
         <app-title class="title-container" data-aos="fade-down" data-aos-duration="700" [title]="'titulo_home' | translate"></app-title>
-        <app-text class="text-container" data-aos="fade-up" data-aos-duration="700" [text]="'parrafo_1_home' | translate"></app-text>
-        <app-text class="text-container" data-aos="fade-up" data-aos-duration="700" [text]="'parrafo_2_home' | translate"></app-text>
+        <section class="texts-container">
+            <app-text class="text-container" data-aos="fade-up" data-aos-duration="700" [text]="'parrafo_1_home' | translate"></app-text>
+            <app-text class="text-container" data-aos="fade-up" data-aos-duration="700" [text]="'parrafo_2_home' | translate"></app-text>
+        </section>
     </article>
 </main>
 <app-footer class="footer"></app-footer>

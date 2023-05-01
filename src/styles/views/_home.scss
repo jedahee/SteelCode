@@ -2,6 +2,14 @@
     top: 100vh;
 }
 
+body:has(.main_home) {
+    background-color: #000000;
+}
+
+.header_home + .hamburguer {
+    top: 100vh;
+}
+
 .main_home {
     width: 100%;
     position: relative;
@@ -30,8 +38,11 @@
         margin-bottom: $sep-md;
     }
 
-    .text-container {
+    .texts-container {
         width: 65%;
+    }
+    .text-container {
+        width: 100%;
         margin: $sep-xs 0;
     }
 

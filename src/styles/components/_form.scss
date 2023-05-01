@@ -67,6 +67,17 @@
                 height: 150px;
                 resize: none;
             }
+
+            #msg_email::-webkit-scrollbar {
+                background-color: $dark;
+                width: 2px;
+            }
+            
+            #msg_email::-webkit-scrollbar-thumb {
+                background-color: $light;
+            }
+
+            
             .btn-submit {
                 position: absolute;
                 right: -20px;

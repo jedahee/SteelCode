@@ -43,5 +43,8 @@
 
     "titulo_contactus": "Contáctanos",
 
-    "404_text": "Página no existente"
+    "404_text": "Página no existente",
+
+    "contacto_formulario_enviado_satis": "¡Correo enviado satisfactoriamente!",
+    "contacto_formulario_enviado_err": "No se ha podido enviar el correo. Intentelo más tarde"
 }

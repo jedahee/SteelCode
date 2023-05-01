@@ -42,6 +42,9 @@
 
     "titulo_contactus": "Contact us",
 
-    "404_text": "Page Not Found"
+    "404_text": "Page Not Found",
+
+    "contacto_formulario_enviado_satis": "Mail sent successfully!",
+    "contacto_formulario_enviado_err": "The email could not be sent. Please try again later"
 
 }

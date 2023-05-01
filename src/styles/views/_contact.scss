@@ -7,6 +7,26 @@
     justify-content: center;
 
     
+    .text_email_sent.success, .text_email_sent.err {
+        text-align: center;
+        padding: $sep-sm - .3rem $sep-md;
+        border-radius: $rounded-md;
+        position: absolute;
+        top: 338px;
+    }
+
+    .text_email_sent.success {
+        color: $pink;
+        border: 2px solid $pink;
+        background-color: $soft_pink;
+    }
+
+    .text_email_sent.err {
+        color: $red;
+        border: 2px solid $red;
+        background-color: $soft_red;
+    }
+
     .title-container {
         grid-area: title;
         margin-top: $sep-lg;

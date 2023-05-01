@@ -2,10 +2,6 @@
     top: 100vh;
 }
 
-body:has(.main_home) {
-    background-color: #000000;
-}
-
 .header_home + .hamburguer {
     top: 100vh;
 }
@@ -17,6 +13,7 @@ body:has(.main_home) {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #000000;
     flex-direction: column;
 
     .part-1, .part-2 {

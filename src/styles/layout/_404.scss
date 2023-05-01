@@ -11,7 +11,7 @@
         }
     }
 
-    body:has(.main_404) .hamburguer {
+    .main_404 .hamburguer {
         border-color: $pure_dark;
         
         div {
@@ -19,7 +19,7 @@
         }
     }
     
-    body:has(.main_404) .hamburguer.active {
+    .main_404 .hamburguer.active {
         border-color: $light;
         
         div {

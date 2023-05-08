@@ -1,5 +1,5 @@
 <h2>{{'members_h2' | translate}} <span class="color">SteelCodeTeam</span></h2>
 <section class="slider">
-    <app-member *ngFor="let name of names" (click)="setInfoName(name)" [functions]="['tipo_colaboracion_1', 'tipo_colaboracion_2']" [name]="name" [routerLink]="['/about-us/' + name]" [style_type]="'type2'" class="member"></app-member>
+    <app-member *ngFor="let obj of names" (click)="setInfoName(obj.name)" [functions]="obj.functions" [name]="obj.name" [routerLink]="['/about-us/' + obj.name]" [style_type]="'type2'" class="member"></app-member>
 
 </section>

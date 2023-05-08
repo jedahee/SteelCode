@@ -17,6 +17,14 @@ export class AboutusDetailComponent implements OnInit {
   public text: string = "";
   public hamburguer_active: boolean = false;
 
+  public allowed_users = [
+    "rudahee",
+    "sergi",
+    "tobias",
+    "farck",
+    "felisa"
+  ];
+
   constructor(private translate_s: TranslateService, private router: Router) {
     this.name = this.router.url.split("/")[2];
   }
@@ -24,7 +32,7 @@ export class AboutusDetailComponent implements OnInit {
   ngOnInit(): void {
     Aos.init();
 
-    if (this.name.toLowerCase() != "rudahee" && this.name.toLowerCase() != "tobias" /*or*/ ) {
+    if (!this.allowed_users.includes(this.name.toLowerCase()) ) {
       this.router.navigate(["/"]);
     }
   }
@@ -38,25 +46,117 @@ export class AboutusDetailComponent implements OnInit {
     if (name.toLowerCase() == "rudahee") {
       this.social_media = [
         {
-          url: "https://angular.io/guide/inputs-outputs",
-          class: "icon-ig"  
+          url: "https://www.github.com/rudahee/",
+          class: "icon-gh"  
+        },
+        {
+          url: "https://www.twitter.com/rudahee/",
+          class: "icon-tw"
+        },
+        {
+          url: "https://www.linkedin.com/in/joserubendazahernandez/",
+          class: "icon-lk"
+        },
+        {
+          url: "mailto:ruben@steelcode.team",
+          class: "icon-gmail"
+        },
+        {
+          url: "https://www.discord.com/",
+          class: "icon-dc",
+          title: "RuDaHee#3048"
+        },
+        {
+          url: "https://es.stackoverflow.com/users/136302/rudahee",
+          class: "icon-stackoverflow"
         }
       ]
-      this.projects = ['Metallics Arts Mod', 'Game']
+      this.projects = ['Metallics Arts Mod']
       this.text = 'parrafo_rudahee';
-    } else if (name.toLowerCase() == "tobias") { 
+    } else if (name.toLowerCase() == "sergi") { 
       this.social_media = [
         {
-          url: "https://angular.io/guide/inputs-outputs",
+          url: "https://www.instagram.com/sergi_blanes/",
           class: "icon-ig"  
         },
         {
-          url: "https://angular.io/guide/inputs-outputs",
-          class: "icon-yt"  
+          url: "https://twitter.com/sregio2/",
+          class: "icon-tw"
+        },
+        {
+          url: "https://www.linkedin.com/in/sergi-b-201730112/",
+          class: "icon-lk"
+        },
+        {
+          url: "mailto:sergi.blanes.perez@gmail.com",
+          class: "icon-gmail"
+        },
+        {
+          url: "https://www.discord.com/",
+          class: "icon-dc",
+          title: "Sergio03#3270"
         },
       ]
       this.projects = ['Metallics Arts Mod']
-      this.text = 'parrafo_project_mam';
+      this.text = 'parrafo_sergi';
+    } else if (name.toLowerCase() == "tobias") { 
+      this.social_media = [
+        {
+          url: "https://github.com/TobibusFate",
+          class: "icon-gh"  
+        },
+        {
+          url: "https://www.linkedin.com/in/burger-tobias/",
+          class: "icon-lk"
+        },
+        {
+          url: "mailto:tobibusfate@steelcode.team",
+          class: "icon-gmail"
+        },
+        {
+          url: "https://www.discord.com/",
+          class: "icon-dc",
+          title: "TobibusFate#9148"
+        },
+      ]
+      this.projects = ['Metallics Arts Mod']
+      this.text = 'parrafo_tobias';
+    } else if (name.toLowerCase() == "farck") { 
+      this.social_media = [
+        {
+          url: "https://www.twitter.com/Farck17/",
+          class: "icon-tw"
+        },
+        {
+          url: "mailto:farck@steelcode.team",
+          class: "icon-gmail"
+        },
+        {
+          url: "https://www.discord.com/",
+          class: "icon-dc",
+          title: "Farck#6576"
+        },
+      ]
+      this.projects = ['Metallics Arts Mod']
+      this.text = 'parrafo_farck';
+    } else if (name.toLowerCase() == "felisa") { 
+      this.social_media = [
+        {
+          url: "https://github.com/CuchUwU",
+          class: "icon-gh"
+        },
+        {
+          url: "mailto:cuchuwu@steelcode.team",
+          class: "icon-gmail"
+        },
+        {
+          url: "https://www.discord.com/",
+          class: "icon-dc",
+          title: "CuchUwU#1782"
+        },
+      ]
+      this.projects = ['Metallics Arts Mod']
+      this.text = 'parrafo_felisa';
     } else {
       this.router.navigate(["/"]);
 

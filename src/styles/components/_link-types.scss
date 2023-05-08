@@ -519,13 +519,13 @@ li.type3::before, .member:has(.type3)::before {
 }
 
 .member:has(.type3)::after {
-    top: 28%;
+    top: 30px;
     height: 70px;
     width: 70px;
 }
 
 .member:has(.type3)::before {
-    top: 28%;
+    top: 30px;
     height: 130px;
     width: 130px;
 }

@@ -18,6 +18,7 @@
     "tipo_colaboracion_7": "Animator",
     "tipo_colaboracion_8": "Collaborator",
     "tipo_colaboracion_9": "Musician",
+    "tipo_colaboracion_10": "Confounder",
     "members_h2": "Members of ",
 
     "ha_palabra": "Has",
@@ -36,8 +37,12 @@
     "mensaje_palabra": "message!",
     "introducir_email": "Enter your email",
     "escribir_email": "Share with us what you think",
-    "parrafo_rudahee": "Texto1Esnglish Rudahee Lorem consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam Lorem consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-
+    "parrafo_rudahee": "Hi! I'm Ruben. I've been a developer for 2 years, I'm also one of the founders of the SteelCode development team and one of the managers and developers of the Metallics Arts and Awakeings projects.",
+    "parrafo_sergi": "Hi!, my name is Sergi and I am one of the founding members of the SteelCode team. In addition, I have participated in the Metallics Arts project as a support programmer.",
+    "parrafo_tobias": "Hi!, my name is Sergi and I am one of the founding members of the SteelCode team. In addition, I have participated in the Metallics Arts project as a support programmer.",
+    "parrafo_farck": "Hey, I'm Farck. I'm one of the artists and co-founders of the team, I'm the person who designed most of the textures for the different mods we've been making.",
+    "parrafo_felisa": "Hi! I'm Felisa or Cuchu. I'm an image and video designer and editor. At SteelCode I'm in charge of some of the translations and I help with the development of Metallics Arts and Awakeings projects.",
+    
     "parrafo_project_mam": "TextoIngles Parrado del Proyecto Metallics Arts Mod, Nulla rem veritatis vitae dolore totam quibusdam Lorem consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? Lorem Lorem ipsum Nulla rem veritatis",
 
     "titulo_contactus": "Contact us",

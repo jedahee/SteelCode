@@ -18,6 +18,7 @@
         row-gap: 2rem;
         overflow-y: auto;
         height: 400px;
+        padding-top: $sep-sm;
     }
 
     .users::-webkit-scrollbar {

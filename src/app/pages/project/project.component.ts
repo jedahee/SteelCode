@@ -42,7 +42,15 @@ export class ProjectComponent implements OnInit {
           name: "Rudahee",
           functions: [
             "tipo_colaboracion_1",
-            "tipo_colaboracion_4",
+            "tipo_colaboracion_2",
+          ]
+        },
+        {
+          type: "type3",
+          name: "Sergi",
+          functions: [
+            "tipo_colaboracion_1",
+            "tipo_colaboracion_2",
           ]
         },
         {
@@ -50,55 +58,38 @@ export class ProjectComponent implements OnInit {
           name: "Tobias",
           functions: [
             "tipo_colaboracion_1",
-            "tipo_colaboracion_4",
+            "tipo_colaboracion_10",
           ]
         },
         {
           type: "type3",
-          name: "Jedahee",
+          name: "Farck",
           functions: [
-            "tipo_colaboracion_2",
             "tipo_colaboracion_3",
+            "tipo_colaboracion_10",
           ]
         },
         {
           type: "type3",
-          name: "Tuviejita",
+          name: "Felisa",
           functions: [
-            "tipo_colaboracion_6",
-          ]
-        },
-        {
-          type: "type3",
-          name: "MiViejita",
-          functions: [
-            "tipo_colaboracion_7",
+            "tipo_colaboracion_3",
+            "tipo_colaboracion_5",
             "tipo_colaboracion_2",
-            "tipo_colaboracion_9",
           ]
-        }
+        },
       ];
 
       this.media_project = [
         {
-          name: "Steam",
-          icon: "icon-steam-project",
-          link: "https://store.steampowered.com/?l=spanish"
+          name: "Curseforge",
+          icon: "icon-cf-project",
+          link: "https://www.curseforge.com/minecraft/mc-mods/metallics-arts"
         },
         {
           name: "Github",
           icon: "icon-gh-project",
-          link: "https://store.steampowered.com/?l=spanish"
-        },
-        {
-          name: "Switch",
-          icon: "icon-switch-project",
-          link: "https://store.steampowered.com/?l=spanish"
-        },
-        {
-          name: "Otro Portal Web",
-          icon: "icon-ex-link-project",
-          link: "https://store.steampowered.com/?l=spanish"
+          link: "https://github.com/SteelCodeTeam/Metallics-Arts"
         },
       ];
     }

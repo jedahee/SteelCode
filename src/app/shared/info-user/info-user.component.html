@@ -4,11 +4,5 @@
 </div>
 <h3><span>{{'encontrar_palabra' | translate}}</span> {{'en_palabra' | translate}}</h3>
 <div class="media_container">
-    <a *ngFor="let media of social_media" target="_blank" [href]="media.url" class="icon {{media.class}}"></a>
-    <!--<a href="#" class="icon icon-gh"></a>
-    <a href="#" class="icon icon-yt"></a>
-    <a href="#" class="icon icon-tw"></a>
-    <a href="#" class="icon icon-tch"></a>
-    <a href="#" class="icon icon-ig"></a>
-    <a href="#" class="icon icon-cf"></a>-->
+    <a *ngFor="let media of social_media" target="_blank" [title]="media.class == 'icon-dc' ? media.title : ''" [href]="media.url" class="icon {{media.class}}"></a>
 </div>

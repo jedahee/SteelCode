@@ -3,9 +3,9 @@
     "enlace_quienes_home": "¿Quiénes somos?",
     "enlace_proyectos_home": "Proyectos",
     "enlace_contactanos_home": "Contáctanos",
-    "parrafo_1_home": "SteelCodeTeam es un pequeño equipo de desarrollo independiente formado a mediados del año 2022, para el lanzamiento de su primer proyecto: [Metallics Arts.] ",
+    "parrafo_1_home": "SteelCodeTeam es un pequeño equipo de desarrollo independiente formado a mediados del año 2022, para el lanzamiento de su primer proyecto: Metallics Arts. ",
     "parrafo_2_home": "A día de hoy, el equipo cuenta con cinco integrantes y diversos colaboradores ocasionales. Actualmente, estamos desarrollando activamente tres proyectos de forma simultánea, dos de ellos basados en la obra literaria de Brandon Sanderson.",
-    "parrafo_3_home": "Si estás interesado en seguir nuestro progreso o colaborar con nosotros, únete a nuestra comunidad desde la [sección de contacto.]",
+    "parrafo_3_home": "Si estás interesado en seguir nuestro progreso o colaborar con nosotros, únete a nuestra comunidad desde la sección de contacto.",
     "waiting_msg": "Esperando...",
     "titulo_aboutus": "¿Quiénes somos?",
     "parrafo_1_aboutus": "SteelCodeTeam es un equipo de desarrollo independiente formado por un núcleo principal de cinco personas, además de otros cuatro colaboradores ocasionales, todos nosotros apasionados por la obra de Brandon Sanderson, solemos realizar proyectos basados en su obra.",
@@ -49,7 +49,7 @@
     
     "parrafo_project_mam": "Metallics Arts trae la saga de libros Nacidos de la Bruma a Minecraft. Descubre nuevos bloques, recetas y objetos. ¡Desbloquea los increíbles poderes de las tres artes metálicas y todo lo que le rodea! Metallics Arts es el primer mod para Minecraft de SteelCodeTeam, empezado a mediados de 2021 para funcionar con la API de Forge basado en la obra literaria de Brandon Sanderson, aún sigue en un desarrollo activo con actualizaciones de forma regular. ",
     "parrafo_project_simple_auth": "Simple Auths es un mod de utilidad que implementa un sistema de login, registro y sesiones para servidores que permite el modo offline, junto a otras utilidades para realizar un control de multi-cuentas en servidores. Simple Auths es el segundo mod para Minecraft de SteelCodeTeam, empezado a principios de 2023, aun está en fase beta y recibe actualizaciones cada semana mejorando e implementando funcionalidades de forma regular. ",
-    "parrafo_project_awakenings": "Próximamente... Sigue las novedades sobre este proyecto en nuestras redes sociales de la sección [contáctanos].",
+    "parrafo_project_awakenings": "Próximamente... Sigue las novedades sobre este proyecto en nuestras redes sociales de la sección contáctanos.",
 
     "titulo_contactus": "Contáctanos",
 

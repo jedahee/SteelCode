@@ -3,9 +3,9 @@
     "enlace_quienes_home": "About us",
     "enlace_proyectos_home": "Projects",
     "enlace_contactanos_home": "Contact us",
-    "parrafo_1_home": "SteelCodeTeam is a small independent development team formed in mid 2022, for the launch of its first project: [Metallics Arts.]",
+    "parrafo_1_home": "SteelCodeTeam is a small independent development team formed in mid 2022, for the launch of its first project: Metallics Arts.",
     "parrafo_2_home": "As of today, the team has five members and several occasional collaborators. We are currently actively developing three projects simultaneously, two of them based on the literary work of Brandon Sanderson. ",
-    "parrafo_3_home": "If you're interested in following our process or collaborating with us, join our community from the [contact section.]",
+    "parrafo_3_home": "If you're interested in following our process or collaborating with us, join our community from the contact section.",
 
     "titulo_aboutus": "About us",
     "parrafo_1_aboutus": "SteelCodeTeam is an independent development group composed of a core team of five people, plus four other occasional collaborators, all of us passionate about the work of Brandon Sanderson, we usually do projects based on his work.",
@@ -46,7 +46,7 @@
     
     "parrafo_project_mam": "Metallics Arts brings the Mistborn book saga to Minecraft. Discover new blocks, recipes and items, unlock the incredible powers of the three metallics arts and all that surrounds it! Metallics Arts is the first mod for Minecraft by SteelCodeTeam, started in mid 2021 to work with the Forge API based on the literary work of Brandon Sanderson, it is still in active development with regular updates.",
     "parrafo_project_simple_auth": "Simple Auths is a utility mod that implements a login, registration and session system for servers that allows offline mode, along with other utilities to perform multi-account control on servers. Simple Auths is the second mod for Minecraft by SteelCodeTeam, started in early 2023, it is still in beta and receives updates every week improving and implementing new features on a regular basis. ",
-    "parrafo_project_awakenings": "Coming soon... Follow the news about this project in our social networks in the [contact us] section. ",
+    "parrafo_project_awakenings": "Coming soon... Follow the news about this project in our social networks in the contact us section. ",
 
     "titulo_contactus": "Contact us",
 

@@ -3,7 +3,7 @@
     <ul data-aos="fade-down" data-aos-duration="700">
         <app-link-header [link]="home" [text]="'titulo_home' | translate" [style_type]="type"></app-link-header>
         <app-link-header [link]="about_us" [text]="'enlace_quienes_home' | translate" [style_type]="type"></app-link-header>
-        <app-link-header [text]="'enlace_proyectos_home' | translate" [submenu]="true" [submenu_links]="[projects_mod]" [style_type]="type"></app-link-header>
+        <app-link-header [text]="'enlace_proyectos_home' | translate" [submenu]="true" [submenu_links]="projects" [style_type]="type"></app-link-header>
         <app-link-header [link]="contact_us" [text]="'enlace_contactanos_home' | translate" [style_type]="type"></app-link-header>
     </ul>
     <app-select-lang class="select-container" (select_lang)="outputSelectLang($event)" data-aos="fade-down" data-aos-duration="700"></app-select-lang>

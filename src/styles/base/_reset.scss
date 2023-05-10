@@ -27,12 +27,12 @@ body {
     background-color: $pure_dark;
 }
 
-body::-webkit-scrollbar {
+body::-webkit-scrollbar,.main_projects::-webkit-scrollbar, .main_about_us::-webkit-scrollbar, .main_contact_us::-webkit-scrollbar {
     background-color: $dark;
     width: 7px;
 }
 
-body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb, .main_projects::-webkit-scrollbar-thumb, .main_about_us::-webkit-scrollbar-thumb, .main_contact_us::-webkit-scrollbar-thumb {
     background-color: $light;
 }
 

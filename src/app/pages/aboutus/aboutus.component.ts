@@ -21,7 +21,12 @@ export class AboutusComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    Aos.init();
+    Aos.init({
+      disable: function() {
+        var maxWidth = 875;
+        return window.innerWidth < maxWidth;
+      }
+    });
   }
 
   selectLang(event: string) {

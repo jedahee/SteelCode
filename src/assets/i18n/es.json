@@ -3,12 +3,13 @@
     "enlace_quienes_home": "¿Quiénes somos?",
     "enlace_proyectos_home": "Proyectos",
     "enlace_contactanos_home": "Contáctanos",
-    "parrafo_1_home": "SteelCodeTeam es un pequeño equipo de desarrollo que hacen software open-source de forma colaborativa. Puedes conocer mas de nosotros en About Us, o puedes ver nuestros proyectos en Our Projects.",
-    "parrafo_2_home": "Si quieres colaborar con nosotros puedes dirigirte a la seccion Contact Us.",
-    "pie_parrafo": "Todos los derechos reservados",
-
+    "parrafo_1_home": "SteelCodeTeam es un pequeño equipo de desarrollo independiente formado a mediados del año 2022, para el lanzamiento de su primer proyecto: [Metallics Arts.] ",
+    "parrafo_2_home": "A día de hoy, el equipo cuenta con cinco integrantes y diversos colaboradores ocasionales. Actualmente, estamos desarrollando activamente tres proyectos de forma simultánea, dos de ellos basados en la obra literaria de Brandon Sanderson.",
+    "parrafo_3_home": "Si estás interesado en seguir nuestro progreso o colaborar con nosotros, únete a nuestra comunidad desde la [sección de contacto.]",
+    "waiting_msg": "Esperando...",
     "titulo_aboutus": "¿Quiénes somos?",
-    "parrafo_1_aboutus": "SteelCodeTeam es un equipo formado por cinco personas y algunos colaboradores ocasionales, todos nosotros apasionados por el Cosmere, que hacen proyectos open-source, gratuitos y de forma autogestionada y colaborativa. Puedes ver los perfiles de nuestros integrantes a continuación:",
+    "parrafo_1_aboutus": "SteelCodeTeam es un equipo de desarrollo independiente formado por un núcleo principal de cinco personas, además de otros cuatro colaboradores ocasionales, todos nosotros apasionados por la obra de Brandon Sanderson, solemos realizar proyectos basados en su obra.",
+    "parrafo_2_aboutus": "SteelCodeTeam solo desarrolla software open-source, gratuitos, de forma autogestionada y colaborativa.",
     
     "tipo_colaboracion_1": "Fundador/a",
     "tipo_colaboracion_2": "Desarrollador/a",
@@ -40,14 +41,16 @@
     "introducir_email": "Introduce tu email",
     "escribir_email": "Comparte con nosotros lo que piensas",
     
-    "parrafo_rudahee": "¡Buenas! Soy Rubén. Soy desarrollador desde hace 2 años, también soy uno de los fundadores del equipo de desarrollo de SteelCode y uno de los encargados y desarrolladores de los proyectos de Metallics Arts y Awakeings.",
-    "parrafo_sergi": "Hola, mi nombre es Sergi y soy uno de los miembros fundadores del equipo SteelCode. Además, he participado en el proyecto de Metallics Arts como programador de apoyo.",
-    "parrafo_tobias": "Hey! Buenas a todos, soy Tobias. Estudiante de informática, cofundador del equipo de desarrollo de SteelCode y participante del desarrollo del mod de Metallics Arts y pronto del Aweakeings.",
+    "parrafo_rudahee": "¡Buenas! Soy Rubén. Soy desarrollador desde hace 2 años, también soy uno de los cofundadores del equipo de desarrollo SteelCodeTeam y uno de los encargados y desarrolladores de los proyectos de Metallics Arts y Awakenings.",
+    "parrafo_sergi": "Hola, mi nombre es Sergi, soy uno de los miembros de SteelCodeTeam. He participado en el proyecto de Metallics Arts como desarrollador y tester.",
+    "parrafo_tobias": "Hey! Buenas a todos, soy Tobias. Estudiante de informática, cofundador del equipo de desarrollo de SteelCodeTeam y participante del desarrollo de los mod de Metallics Arts, SimpleAuths y Awakenings",
     "parrafo_farck": "¡Ey! Soy Farck. Soy uno de los artistas y cofundadores del equipo, soy la persona que ha diseñado la mayoría de las texturas de los distintos mods que hemos ido haciendo.",
-    "parrafo_felisa": "¡Holi! Soy Felisa o Cuchu. Soy diseñadora y editora de imagen y video, en SteelCode me encargo de algunas de las traducciones y ayudo al desarrollo de los proyectos de Metallics Arts y Awakeings.",
+    "parrafo_felisa": "¡Holi! Soy Felisa o Cuchu. Soy diseñadora y editora de imagen y video, en SteelCodeTeam me encargo de algunas de las traducciones y ayudo a la organizacion de los proyectos de Metallics Arts y Awakenings.",
     
-    "parrafo_project_mam": "Metallics Arts es un cautivador mod para Minecraft, perfectamente integrado con la API de Forge. Nuestro mod trae la saga de libros Nacidos de la Niebla a Minecraft. Descubre nuevos bloques, recetas y objetos, ¡desbloquea los increíbles poderes de Metallics Arts y todo lo que le rodea!",
-    
+    "parrafo_project_mam": "Metallics Arts trae la saga de libros Nacidos de la Bruma a Minecraft. Descubre nuevos bloques, recetas y objetos. ¡Desbloquea los increíbles poderes de las tres artes metálicas y todo lo que le rodea! Metallics Arts es el primer mod para Minecraft de SteelCodeTeam, empezado a mediados de 2021 para funcionar con la API de Forge basado en la obra literaria de Brandon Sanderson, aún sigue en un desarrollo activo con actualizaciones de forma regular. ",
+    "parrafo_project_simple_auth": "Simple Auths es un mod de utilidad que implementa un sistema de login, registro y sesiones para servidores que permite el modo offline, junto a otras utilidades para realizar un control de multi-cuentas en servidores. Simple Auths es el segundo mod para Minecraft de SteelCodeTeam, empezado a principios de 2023, aun está en fase beta y recibe actualizaciones cada semana mejorando e implementando funcionalidades de forma regular. ",
+    "parrafo_project_awakenings": "Próximamente... Sigue las novedades sobre este proyecto en nuestras redes sociales de la sección [contáctanos].",
+
     "titulo_contactus": "Contáctanos",
 
     "404_text": "Página no existente",

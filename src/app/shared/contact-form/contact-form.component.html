@@ -9,5 +9,6 @@
         <textarea [(ngModel)]="message" [placeholder]="'escribir_email' | translate" name="message" id="msg_email" required></textarea>
         <button type="submit" class="btn-submit type4"><div class="icon icon-send"></div></button>
     </div>
-    <p class="text_email_sent {{is_success_sent ? 'success' : 'error'}}">{{send_msg | translate}}</p>
+    <p class="{{is_success_sent ? 'text_email_sent success' : 'text_email_sent error'}}">{{send_msg | translate}}</p>
+    <p *ngIf="is_sending" class="{{is_sending ? 'text_email_sent success' : ''}}">{{'waiting_msg' | translate}}</p>
 </form>

@@ -13,7 +13,12 @@ export class ContactusComponent implements OnInit {
   constructor(private translate_s: TranslateService) { }
 
   ngOnInit(): void {
-    Aos.init();  
+    Aos.init({
+      disable: function() {
+        var maxWidth = 930;
+        return window.innerWidth < maxWidth;
+      }
+    });  
   }
 
   changeMenuStatus() {

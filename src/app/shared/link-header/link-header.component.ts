@@ -12,6 +12,11 @@ export class LinkHeaderComponent {
   @Input() submenu: boolean = false;
   @Input() submenu_links: string[] = [];
 
+
+  reload() {
+    location.reload();
+
+  }
   constructor() {
   }
 }

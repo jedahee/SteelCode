@@ -1,4 +1,4 @@
-@media (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
     .main_projects {
         .text-container {
             height: 255px;
@@ -27,7 +27,7 @@
       
 }
 
-@media (max-width: 875px) {
+@media screen and (max-width: 875px) {
     .main_projects > img {
         margin-top: 80px;
         width: 150%;
@@ -35,8 +35,9 @@
     }
 }
 
-@media (max-width: 815px) {
+@media screen and (max-width: 815px) {
     .main_projects {
+
         height: auto;
         grid-template-areas: "title title"
         "text text"
@@ -71,9 +72,17 @@
         }
     }
     
+    html:has(.main_projects) {
+        position: fixed;
+        height: 100%;
+        overflow: hidden;
+      }
     body:has(.main_projects) {
-        overflow-x: hidden;
+        width: 100vw; 
+        height: 100%;
         overflow-y: auto;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
 
         .footer {
             position: inherit
@@ -81,7 +90,7 @@
     }
 }
 
-@media (max-width: 575px) {
+@media screen and (max-width: 575px) {
     .main_projects {
         
         grid-template-areas: "title"

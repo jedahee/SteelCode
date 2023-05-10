@@ -1,4 +1,4 @@
-@media (max-width: 875px) {
+@media screen and (max-width: 875px) {
 
 
     .header_home .header {
@@ -31,7 +31,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .main_home {
         .decorate:has(.type1) {
             top: -214px;

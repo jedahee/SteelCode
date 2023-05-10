@@ -12,7 +12,8 @@ export class HeaderComponent implements OnInit {
 
   public home:string = "/";
   public about_us:string = "/about-us";
-  public projects_mod:string = "/projects/metallics_arts_mod";
+  public projects: string[] = ["/projects/metallics_arts_mod", "/projects/simple_auths_mod", "/projects/awakenings_mod"]
+
   public contact_us:string = "/contact-us";
 
   constructor() {

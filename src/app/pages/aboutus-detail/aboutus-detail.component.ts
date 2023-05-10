@@ -30,7 +30,12 @@ export class AboutusDetailComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    Aos.init();
+    Aos.init({
+      disable: function() {
+        var maxWidth = 875;
+        return window.innerWidth < maxWidth;
+      }
+    });
 
     if (!this.allowed_users.includes(this.name.toLowerCase()) ) {
       this.router.navigate(["/"]);
@@ -71,7 +76,7 @@ export class AboutusDetailComponent implements OnInit {
           class: "icon-stackoverflow"
         }
       ]
-      this.projects = ['Metallics Arts Mod']
+      this.projects = ['Metallics Arts Mod', 'SimpleAuths Mod', 'Awakenings Mod']
       this.text = 'parrafo_rudahee';
     } else if (name.toLowerCase() == "sergi") { 
       this.social_media = [
@@ -119,7 +124,7 @@ export class AboutusDetailComponent implements OnInit {
           title: "TobibusFate#9148"
         },
       ]
-      this.projects = ['Metallics Arts Mod']
+      this.projects = ['Metallics Arts Mod', 'SimpleAuths Mod', 'Awakenings Mod']
       this.text = 'parrafo_tobias';
     } else if (name.toLowerCase() == "farck") { 
       this.social_media = [
@@ -137,7 +142,7 @@ export class AboutusDetailComponent implements OnInit {
           title: "Farck#6576"
         },
       ]
-      this.projects = ['Metallics Arts Mod']
+      this.projects = ['Metallics Arts Mod', 'SimpleAuths Mod', 'Awakenings Mod']
       this.text = 'parrafo_farck';
     } else if (name.toLowerCase() == "felisa") { 
       this.social_media = [
@@ -155,7 +160,7 @@ export class AboutusDetailComponent implements OnInit {
           title: "CuchUwU#1782"
         },
       ]
-      this.projects = ['Metallics Arts Mod']
+      this.projects = ['Metallics Arts Mod', 'Awakenings Mod']
       this.text = 'parrafo_felisa';
     } else {
       this.router.navigate(["/"]);

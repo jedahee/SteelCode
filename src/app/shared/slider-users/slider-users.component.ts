@@ -32,7 +32,7 @@ export class SliderUsersComponent implements OnInit {
       },
       {
         name:"Felisa",
-        functions: ['tipo_colaboracion_3', 'tipo_colaboracion_5', 'tipo_colaboracion_2']
+        functions: ['tipo_colaboracion_3', 'tipo_colaboracion_5']
       },
       {
         name:"Tobias",

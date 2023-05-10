@@ -21,7 +21,10 @@ export class ArrowScrollComponent implements AfterViewInit {
     
     if (url == '#info')
       this.isInTop = false;
-    else
+    
+    if (localStorage.getItem("isVideoViewed") == "true")
+      this.isInTop = false;
+    
 
     this.scrollArrow(false);
   }

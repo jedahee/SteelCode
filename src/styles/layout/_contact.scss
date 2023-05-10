@@ -1,4 +1,4 @@
-@media (max-width: 1065px) {
+@media screen and (max-width: 1065px) {
     .title-container .title {
         font-size: $font-title - 2rem;
     }
@@ -8,17 +8,32 @@
     }
 }
 
-@media (max-width: 930px) {
+@media screen and (max-width: 930px) {
+    html:has(.main_contact_us) {
+        position: fixed;
+        height: 100%;
+        overflow: hidden;
+      }
     body:has(.main_contact_us) {
-        overflow-x: hidden;
+        width: 100vw; 
+        height: 100%;
         overflow-y: auto;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
 
         .footer {
             position: inherit
         }
     }
+    
 
     .main_contact_us {
+        * {
+            [data-aos^=zoom][data-aos^=zoom], [data-aos^=fade][data-aos^=fade].aos-animate {
+                opacity: 1 !important;
+            }
+        }
+        
         .title-container .title {
             width: auto;
         }
@@ -46,9 +61,10 @@
 
         }
     }
+    
 }
 
-@media (max-width: 470px) {
+@media screen and (max-width: 470px) {
     
     .title-container .title {
         font-size: $font-title - 3rem;
@@ -78,4 +94,11 @@
         min-width: 200px;
     }
         
+}
+
+
+@media screen and (max-width: 400px) {
+    .main_contact_us .title-container {
+        margin-top: 30px;
+    }
 }

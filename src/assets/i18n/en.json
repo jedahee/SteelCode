@@ -3,12 +3,13 @@
     "enlace_quienes_home": "About us",
     "enlace_proyectos_home": "Projects",
     "enlace_contactanos_home": "Contact us",
-    "parrafo_1_home": "Text1English sit amet consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime corporis quidem veritatis natus debitis quos itaque doloribus nobis numquam laborum! Reiciendis assumenda voluptatem at consequatur porro debitis beatae sed eveniet.",
-    "parrafo_2_home": "Text2English dolor sit amet consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime corporis quidem veritatis natus debitis quos itaque doloribus nobis numquam laborum! Reiciendis assumenda voluptatem at consequatur porro debitis beatae sed eveniet.",
-    "pie_parrafo": "All Rights Reserved",
+    "parrafo_1_home": "SteelCodeTeam is a small independent development team formed in mid 2022, for the launch of its first project: [Metallics Arts.]",
+    "parrafo_2_home": "As of today, the team has five members and several occasional collaborators. We are currently actively developing three projects simultaneously, two of them based on the literary work of Brandon Sanderson. ",
+    "parrafo_3_home": "If you're interested in following our process or collaborating with us, join our community from the [contact section.]",
 
     "titulo_aboutus": "About us",
-    "parrafo_1_aboutus": "Texto1English sit amet consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime corporis quidem veritatis natus debitis quos itaque doloribus nobis numquam laborum! Reiciendis assumenda voluptatem at consequatur porro debitis beatae sed eveniet.",
+    "parrafo_1_aboutus": "SteelCodeTeam is an independent development group composed of a core team of five people, plus four other occasional collaborators, all of us passionate about the work of Brandon Sanderson, we usually do projects based on his work.",
+    "parrafo_2_aboutus": "SteelCodeTeam only develops open-source, free, self-managed and collaborative software.",
     "tipo_colaboracion_1": "Owner",
     "tipo_colaboracion_2": "Developer",
     "tipo_colaboracion_3": "Designer",
@@ -20,7 +21,7 @@
     "tipo_colaboracion_9": "Musician",
     "tipo_colaboracion_10": "Confounder",
     "members_h2": "Members of ",
-
+    "waiting_msg": "Waiting...",
     "ha_palabra": "Has",
     "en_palabra": "in",
     "participar_palabra": "participated",
@@ -43,7 +44,9 @@
     "parrafo_farck": "Hey, I'm Farck. I'm one of the artists and co-founders of the team, I'm the person who designed most of the textures for the different mods we've been making.",
     "parrafo_felisa": "Hi! I'm Felisa or Cuchu. I'm an image and video designer and editor. At SteelCode I'm in charge of some of the translations and I help with the development of Metallics Arts and Awakeings projects.",
     
-    "parrafo_project_mam": "TextoIngles Parrado del Proyecto Metallics Arts Mod, Nulla rem veritatis vitae dolore totam quibusdam Lorem consectetur adipisicing elit. Nulla rem veritatis vitae dolore totam quibusdam impedit tenetur, id, officia fuga, commodi sequi ab. Error quasi quae ab quibusdam voluptate corporis? Lorem Lorem ipsum Nulla rem veritatis",
+    "parrafo_project_mam": "Metallics Arts brings the Mistborn book saga to Minecraft. Discover new blocks, recipes and items, unlock the incredible powers of the three metallics arts and all that surrounds it! Metallics Arts is the first mod for Minecraft by SteelCodeTeam, started in mid 2021 to work with the Forge API based on the literary work of Brandon Sanderson, it is still in active development with regular updates.",
+    "parrafo_project_simple_auth": "Simple Auths is a utility mod that implements a login, registration and session system for servers that allows offline mode, along with other utilities to perform multi-account control on servers. Simple Auths is the second mod for Minecraft by SteelCodeTeam, started in early 2023, it is still in beta and receives updates every week improving and implementing new features on a regular basis. ",
+    "parrafo_project_awakenings": "Coming soon... Follow the news about this project in our social networks in the [contact us] section. ",
 
     "titulo_contactus": "Contact us",
 

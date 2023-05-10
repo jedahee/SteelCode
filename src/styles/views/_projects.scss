@@ -11,7 +11,15 @@
     & > img {
         grid-area: title;
         width: 100%;
+        max-width: 1000px;
+        margin-left: auto;
+        border-radius: 20px;
+        margin-right: auto;
         margin-top: 107px;
+    }
+
+    & > img.small-img {
+        max-width: 400px;
     }
 
     .text-container {

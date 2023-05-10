@@ -23,7 +23,7 @@ export class SliderUsersComponent implements OnInit {
         functions: ['tipo_colaboracion_10', 'tipo_colaboracion_2']
       },
       {
-        name:"Sergi",
+        name:"Sregio03",
         functions: ['tipo_colaboracion_2']
       },
       {
@@ -31,11 +31,11 @@ export class SliderUsersComponent implements OnInit {
         functions: ['tipo_colaboracion_3', 'tipo_colaboracion_10']
       },
       {
-        name:"Felisa",
+        name:"Cuchuwu",
         functions: ['tipo_colaboracion_3', 'tipo_colaboracion_5']
       },
       {
-        name:"Tobias",
+        name:"TobibusFate",
         functions: ['tipo_colaboracion_1', 'tipo_colaboracion_10']
       },
     ]

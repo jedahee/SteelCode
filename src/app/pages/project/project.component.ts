@@ -51,15 +51,14 @@ export class ProjectComponent implements OnInit {
           type: "type3",
           name: "Rudahee",
           functions: [
-            "tipo_colaboracion_1",
+            "tipo_colaboracion_10",
             "tipo_colaboracion_2",
           ]
         },
         {
           type: "type3",
           name: "Sergi",
-          functions: [
-            "tipo_colaboracion_1",
+          functions: [,
             "tipo_colaboracion_2",
           ]
         },

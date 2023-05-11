@@ -18,7 +18,6 @@ import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { AboutusDetailComponent } from './pages/aboutus-detail/aboutus-detail.component';
 import { ProjectComponent } from './pages/project/project.component';
 import { ContactusComponent } from './pages/contactus/contactus.component';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -53,7 +52,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

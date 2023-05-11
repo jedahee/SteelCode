@@ -200,7 +200,7 @@ export class ProjectComponent implements OnInit {
         {
           name: "Contact us",
           icon: "icon-ex-link-project",
-          link: "https://steelcode.team/contact-us"
+          link: "/contact-us"
         },
       ];
     }

@@ -1,6 +1,6 @@
 @media screen and (max-width: 1050px) {
     .main_projects {
-        .text-container {
+        .texts {
             height: 255px;
             padding-left: 3rem;
         }
@@ -43,14 +43,20 @@
         "text text"
         "links-project users-in-project";
     
-        .text-container {
+        .texts {
             height: max-content;
             margin-bottom: $sep-md;
             margin-top: $sep-md;
         }
 
+        h3 {
+            padding-left: 0 !important;
+        }
+
         .links-project-container .links-project {
             height: max-content;
+            padding-left: 0 !important;
+
         }
 
         .users-in-project-container > h3 {

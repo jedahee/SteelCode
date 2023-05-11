@@ -21,19 +21,16 @@ export class UserTitlePageComponent implements OnInit {
       this.src = "../../../assets/images/img_user_aboutus.svg";
       this.name_output.emit(this.name);
     } 
-    else if (this.name.toLowerCase() == "tobias") {
+    else if (this.name.toLowerCase() == "tobibusfate") {
       this.src = "../../../assets/images/img_user_aboutus.svg";
       this.name_output.emit(this.name);
     } 
-    else if (this.name.toLowerCase() == "sergi") {
+    else if (this.name.toLowerCase() == "sregio03") {
       this.src = "../../../assets/images/img_user_aboutus.svg"
       this.name_output.emit(this.name);
     } 
-    else if (this.name.toLowerCase() == "tobias") {
-      this.src = "../../../assets/images/img_user_aboutus.svg"
-      this.name_output.emit(this.name);
-    }  
-    else if (this.name.toLowerCase() == "felisa") {
+      
+    else if (this.name.toLowerCase() == "cuchuwu") {
       this.src = "../../../assets/images/img_user_aboutus.svg"
       this.name_output.emit(this.name);
     } 

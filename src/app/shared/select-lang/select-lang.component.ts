@@ -13,7 +13,7 @@ export class SelectLangComponent implements OnInit {
   public langs: string[] = [];
 
   constructor(private translate_s: TranslateService) { 
-    this.langs = ["es", "en"];
+    this.langs = ["es", "en", "pl", "ja", "cs"];
   }
 
   ngOnInit(): void {

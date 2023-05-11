@@ -1,8 +1,11 @@
 <div class="select">
-    <div class="icon preview" [ngClass]="lang_selected == 'es' ? 'spain-flag-icon' : lang_selected == 'en' ? 'usa-flag-icon' : '' "></div>
+    <div class="icon preview" [ngClass]="lang_selected == 'es' ? 'spain-flag-icon' : lang_selected == 'en' ? 'usa-flag-icon' : lang_selected == 'cs' ? 'cs-flag-icon' : lang_selected == 'ja' ? 'ja-flag-icon' : lang_selected == 'pl' ? 'pl-flag-icon' : '' "></div>
     <div class="icon icon-chevron-down"></div>
     <div class="options">
         <div (click)="selectLang('es')" class="option"><div class="icon spain-flag-icon"></div></div>
         <div (click)="selectLang('en')" class="option"><div class="icon usa-flag-icon"></div></div>
+        <div style="pointer-events: none; opacity: .5;" (click)="selectLang('cs')" class="option"><div class="icon cs-flag-icon"></div></div>
+        <div style="pointer-events: none; opacity: .5;" (click)="selectLang('ja')" class="option"><div class="icon ja-flag-icon"></div></div>
+        <div style="pointer-events: none; opacity: .5;" (click)="selectLang('pl')" class="option"><div class="icon pl-flag-icon"></div></div>
     </div>
 </div>

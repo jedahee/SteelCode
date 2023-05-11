@@ -40,8 +40,10 @@
                 ul {
                     top: 100%;
                     z-index: 3;
+                    transform: translateX(-50%) scale(1);
                     background-color: $dark;
-                    
+                    pointer-events: none;
+
                     li {
                         margin: $sep-sm 0;
                     }

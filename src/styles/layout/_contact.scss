@@ -28,11 +28,7 @@
     
 
     .main_contact_us {
-        * {
-            [data-aos^=zoom][data-aos^=zoom], [data-aos^=fade][data-aos^=fade].aos-animate {
-                opacity: 1 !important;
-            }
-        }
+        
         
         .title-container .title {
             width: auto;
@@ -100,5 +96,9 @@
 @media screen and (max-width: 400px) {
     .main_contact_us .title-container {
         margin-top: 30px;
+    }
+
+    .title-container .title {
+        font-size: $font-title - 3.5rem;
     }
 }

@@ -19,10 +19,10 @@ export class AboutusDetailComponent implements OnInit {
 
   public allowed_users = [
     "rudahee",
-    "sergi",
-    "tobias",
+    "sregio03",
+    "tobibusfate",
     "farck",
-    "felisa"
+    "cuchuwu"
   ];
 
   constructor(private translate_s: TranslateService, private router: Router) {
@@ -78,7 +78,7 @@ export class AboutusDetailComponent implements OnInit {
       ]
       this.projects = ['Metallics Arts Mod', 'SimpleAuths Mod', 'Awakenings Mod']
       this.text = 'parrafo_rudahee';
-    } else if (name.toLowerCase() == "sergi") { 
+    } else if (name.toLowerCase() == "sregio03") { 
       this.social_media = [
         {
           url: "https://www.instagram.com/sergi_blanes/",
@@ -104,7 +104,7 @@ export class AboutusDetailComponent implements OnInit {
       ]
       this.projects = ['Metallics Arts Mod']
       this.text = 'parrafo_sergi';
-    } else if (name.toLowerCase() == "tobias") { 
+    } else if (name.toLowerCase() == "tobibusfate") { 
       this.social_media = [
         {
           url: "https://github.com/TobibusFate",
@@ -144,7 +144,7 @@ export class AboutusDetailComponent implements OnInit {
       ]
       this.projects = ['Metallics Arts Mod', 'SimpleAuths Mod', 'Awakenings Mod']
       this.text = 'parrafo_farck';
-    } else if (name.toLowerCase() == "felisa") { 
+    } else if (name.toLowerCase() == "cuchuwu") { 
       this.social_media = [
         {
           url: "https://github.com/CuchUwU",

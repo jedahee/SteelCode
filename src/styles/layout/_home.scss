@@ -18,7 +18,11 @@
 
         .texts-container {
             width: 85%;
+            .text-container .text {
+                text-align: center;
+            }
         }
+        
 
         .texts-container::-webkit-scrollbar {
             background-color: $dark;

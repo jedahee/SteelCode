@@ -7,7 +7,11 @@
     <app-decorate class="decorate" data-aos="fade-right" data-aos-duration="700" [class_type]="'type5'"></app-decorate>
     <app-decorate class="decorate" data-aos="fade-left" data-aos-duration="700" [class_type]="'type6'"></app-decorate>
     <img class="{{name.toLowerCase() == 'awakenings_mod' ? 'small-img' : ''}}" src="../../../assets/images/{{ src_title }}" alt="Metallic Arts Mod" data-aos="fade-down" data-aos-duration="700">
-    <app-text class="text-container" data-aos="fade-right" data-aos-duration="700" [text]="text | translate"></app-text>
+    <div class="texts">
+        <app-text class="text-container" data-aos="fade-right" data-aos-duration="700" [text]="text | translate"></app-text>
+        <br>
+        <app-text *ngIf="text_2 != ''" class="text-container" data-aos="fade-right" data-aos-duration="700" [text]="text_2 | translate"></app-text>
+    </div>
     <app-users-in-project [users_involved]="users_involved" data-aos="fade-left" data-aos-duration="700" class="users-in-project-container"></app-users-in-project>
     <app-links-project [media_project]="media_project" data-aos="fade-up" data-aos-duration="700" class="links-project-container"></app-links-project>
 </main>

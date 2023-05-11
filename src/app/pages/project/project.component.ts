@@ -13,6 +13,7 @@ export class ProjectComponent implements OnInit {
   public name : string = "";
   public media_project : any[] = [];
   public text : string = "";
+  public text_2 : string = "";
   public src_title: string = "";
   public users_involved : any[] = [];
   public hamburguer_active: boolean = false;
@@ -43,7 +44,8 @@ export class ProjectComponent implements OnInit {
     }
 
     if (this.name.toLowerCase() == "metallics_arts_mod" ) {
-      this.text = "parrafo_project_mam";
+      this.text = "parrafo_project_mam_1";
+      this.text_2 = "parrafo_project_mam_2";
       this.src_title = "title_mam.svg";
 
       this.users_involved = [
@@ -103,7 +105,8 @@ export class ProjectComponent implements OnInit {
     }
 
     else if (this.name.toLowerCase() == "simple_auths_mod") {
-      this.text = "parrafo_project_simple_auth";
+      this.text = "parrafo_project_simple_auth_1";
+      this.text_2 = "parrafo_project_simple_auth_2";
       this.src_title = "simpleauth.gif";
 
       this.users_involved = [
@@ -149,6 +152,7 @@ export class ProjectComponent implements OnInit {
 
     else if ( this.name.toLowerCase() == "awakenings_mod") {
       this.text = "parrafo_project_awakenings";
+      this.text_2 = "";
       this.src_title = "commingsoon.jpeg";
 
       this.users_involved = [

@@ -120,7 +120,7 @@ export class ProjectComponent implements OnInit {
         },
         {
           type: "type3",
-          name: "Tobias",
+          name: "TobibusFate",
           functions: [
             "tipo_colaboracion_1",
             "tipo_colaboracion_10",
@@ -166,15 +166,14 @@ export class ProjectComponent implements OnInit {
         },
         {
           type: "type3",
-          name: "Sergi",
-          functions: [
-            "tipo_colaboracion_1",
+          name: "Sregio03",
+          functions: [,
             "tipo_colaboracion_2",
           ]
         },
         {
           type: "type3",
-          name: "Tobias",
+          name: "TobibusFate",
           functions: [
             "tipo_colaboracion_1",
             "tipo_colaboracion_10",
@@ -190,11 +189,10 @@ export class ProjectComponent implements OnInit {
         },
         {
           type: "type3",
-          name: "Felisa",
+          name: "Cuchuwu",
           functions: [
             "tipo_colaboracion_3",
             "tipo_colaboracion_5",
-            
           ]
         },
       ];

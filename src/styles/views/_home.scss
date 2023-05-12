@@ -7,6 +7,11 @@
 }
 
 .main_home {
+
+    .decorate {
+        z-index: 0 !important;
+    }
+
     width: 100%;
     position: relative;
     overflow: hidden;

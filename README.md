@@ -1,3 +1,5 @@
+![image](https://github.com/jedahee/SteelCode/assets/56111700/5399e065-85f3-4b0e-8f21-3e01734dc095)
+
 # SteelCodeTeam
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.

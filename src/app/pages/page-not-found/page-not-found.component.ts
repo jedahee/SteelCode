@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild, ElementRef, Output, EventEmitter } from '
 import * as Aos from 'aos';
 import { TranslateService } from '@ngx-translate/core';
 @Component({
+  standalone: false,
   selector: 'app-page-not-found',
   templateUrl: './page-not-found.component.html',
   styleUrls: ['./page-not-found.component.scss']

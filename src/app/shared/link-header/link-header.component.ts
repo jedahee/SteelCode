@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-link-header',
   templateUrl: './link-header.component.html',
   styleUrls: ['./link-header.component.scss']

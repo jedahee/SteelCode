@@ -3,6 +3,7 @@ import * as Aos from 'aos';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
+  standalone: false,
   selector: 'app-aboutus',
   templateUrl: './aboutus.component.html',
   styleUrls: ['./aboutus.component.scss']

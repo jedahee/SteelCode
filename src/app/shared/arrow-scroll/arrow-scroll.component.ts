@@ -2,6 +2,7 @@ import { Component, ElementRef, ViewChild, Output, AfterViewInit, EventEmitter }
 import { Router } from '@angular/router';
 
 @Component({
+  standalone: false,
   selector: 'app-arrow-scroll',
   templateUrl: './arrow-scroll.component.html',
   styleUrls: ['./arrow-scroll.component.scss']

@@ -1,6 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-user-title-page',
   templateUrl: './user-title-page.component.html',
   styleUrls: ['./user-title-page.component.scss']

@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-links-project',
   templateUrl: './links-project.component.html',
   styleUrls: ['./links-project.component.scss']

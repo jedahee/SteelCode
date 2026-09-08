@@ -1,6 +1,7 @@
 import { Component, Output, EventEmitter, OnInit } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-slider-users',
   templateUrl: './slider-users.component.html',
   styleUrls: ['./slider-users.component.scss']

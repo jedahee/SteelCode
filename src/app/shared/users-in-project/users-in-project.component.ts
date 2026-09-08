@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-users-in-project',
   templateUrl: './users-in-project.component.html',
   styleUrls: ['./users-in-project.component.scss']

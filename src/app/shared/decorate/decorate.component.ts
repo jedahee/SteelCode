@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-decorate',
   templateUrl: './decorate.component.html',
   styleUrls: ['./decorate.component.scss']

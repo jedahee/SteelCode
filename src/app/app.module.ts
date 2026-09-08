@@ -7,21 +7,14 @@ import { SharedModule } from './shared/shared.module';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import {VgCoreModule} from '@videogular/ngx-videogular/core';
-import {VgControlsModule} from '@videogular/ngx-videogular/controls';
-import {VgOverlayPlayModule} from '@videogular/ngx-videogular/overlay-play';
-import {VgBufferingModule} from '@videogular/ngx-videogular/buffering';
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { AboutusDetailComponent } from './pages/aboutus-detail/aboutus-detail.component';
 import { ProjectComponent } from './pages/project/project.component';
 import { ContactusComponent } from './pages/contactus/contactus.component';
 
-export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
-}
+import { TranslateLoader, provideTranslateService } from '@ngx-translate/core';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { AppTranslateLoader } from './app-translate-loader';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,20 +32,19 @@ export function HttpLoaderFactory(http: HttpClient) {
     SharedModule,
     FormsModule, 
     ReactiveFormsModule,
-    RouterModule,
-    VgCoreModule,
-    VgControlsModule,
-    VgOverlayPlayModule,
-    VgBufferingModule,
-    TranslateModule.forRoot({
+    RouterModule
+  ],
+  providers: [
+    provideTranslateService({
+      lang: 'es',
+      fallbackLang: 'es',
       loader: {
         provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
+        useClass: AppTranslateLoader,
         deps: [HttpClient]
       }
     })
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

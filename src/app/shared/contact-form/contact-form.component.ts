@@ -3,6 +3,7 @@ import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import { environment } from 'src/environments/environment';
 
 @Component({
+  standalone: false,
   selector: 'app-contact-form',
   templateUrl: './contact-form.component.html',
   styleUrls: ['./contact-form.component.scss']

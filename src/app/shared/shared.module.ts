@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -13,9 +12,8 @@ import { DecorateComponent } from './decorate/decorate.component';
 import { TitleComponent } from './title/title.component';
 import { TextComponent } from './text/text.component';
 import { ArrowScrollComponent } from './arrow-scroll/arrow-scroll.component';
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TranslatePipe } from '@ngx-translate/core';
+import { HttpClientModule } from '@angular/common/http';
 import { SliderUsersComponent } from './slider-users/slider-users.component';
 import { MemberComponent } from './member/member.component';
 import { UserTitlePageComponent } from './user-title-page/user-title-page.component';
@@ -25,9 +23,6 @@ import { LinksProjectComponent } from './links-project/links-project.component';
 import { ContactLinksComponent } from './contact-links/contact-links.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 
-export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
-}
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -51,17 +46,10 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   imports: [
     CommonModule,
-    BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     RouterModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    })
+    TranslatePipe
   ],
   exports: [
     HeaderComponent,
@@ -81,7 +69,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     UsersInProjectComponent,
     LinksProjectComponent,
     ContactLinksComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    TranslatePipe
   ]
 })
 export class SharedModule { }

@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-info-user',
   templateUrl: './info-user.component.html',
   styleUrls: ['./info-user.component.scss']

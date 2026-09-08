@@ -4,6 +4,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { Router } from '@angular/router';
 
 @Component({
+  standalone: false,
   selector: 'app-aboutus-detail',
   templateUrl: './aboutus-detail.component.html',
   styleUrls: ['./aboutus-detail.component.scss']

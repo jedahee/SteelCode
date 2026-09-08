@@ -1,6 +1,7 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 @Component({
+  standalone: false,
   selector: 'app-select-lang',
   templateUrl: './select-lang.component.html',
   styleUrls: ['./select-lang.component.scss']
